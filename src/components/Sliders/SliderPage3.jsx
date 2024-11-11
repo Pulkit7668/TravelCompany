@@ -37,7 +37,30 @@ function SliderPage2() {
       setHideNext(next >= data.length - settings.slidesToShow);
     },
     prevArrow: <PrevArrow hidden={hidePrev} />,
-    nextArrow: <NextArrow hidden={hideNext} />
+    nextArrow: <NextArrow hidden={hideNext} />,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
 
   return (
@@ -55,7 +78,7 @@ function SliderPage2() {
               >
 
                 <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black to-transparent opacity-100"></div>
-                <p className='bg-[#01202B] text-white text-md font-montserrat rounded-xl px-3 absolute top-5 left-3'>{d.time}</p>
+                <p className='bg-[#01202B] text-white text-md font-montserrat rounded-xl px-3 absolute top-5 md:left-3'>{d.time}</p>
                 {/* content */}
                 <div className="absolute flex flex-col p-4 mt-56 mr-10">
                   <h3 className="text-md font-bold text-white">{d.name}</h3>

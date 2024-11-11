@@ -41,10 +41,10 @@ const WhyPlanWithUs = () => {
   ];
 
   return (
-    <section className="flex justify-center items-center mt-10">
+    <section className="flex justify-center items-center md:mt-10 h-[100vh] md:h-full">
       <div className="w-[80vw] h-[80vh] p-6">
         <h2 className="text-3xl font-bold mb-8">Why plan with us?</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {features.map((feature, index) => (
             <div
               key={index}

@@ -2,12 +2,12 @@ import React from 'react';
 
 function HeaderSection() {
   return (
-    <header className="relative h-screen overflow-hidden">
+    <header className="relative h-screen w-[100%] overflow-hidden">
       {/* Background Image */}
       <img
         src="https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvd2Vic2l0ZS9iYW5uZXJzL2hvbWVwYWdlLWhlcm9iYW5uZXItMy53ZWJwIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoyMjQwLCJoZWlnaHQiOjg0MCwiZml0IjoiY292ZXIifX19"
         alt="Background"
-        className="absolute inset-0 w-full h-5/6 object-cover"
+        className="absolute inset-0 w-[100%] h-5/6 object-cover"
       />
       
       {/* Shadow */}
@@ -16,16 +16,16 @@ function HeaderSection() {
       {/* Content */}
       <div className="relative flex items-center justify-between px-10 h-full">
         {/* Left Side Text Content */}
-        <div className="text-white max-w-5xl space-y-6 absolute top-16 left-24">
-          <h1 className="text-5xl font-extrabold leading-tight">Effortless Travel Planning!<br />Let AI Be Your Expert Guide.</h1>
-          <p className="text-2xl">Bid farewell to generic holiday packages. <br /> Get Your AI-Personalised Itineraries</p>
+        <div className="text-white md:max-w-5xl md:space-y-6 absolute top-52 md:top-16 left-32 md:left-24 text-center md:text-start">
+          <h1 className="text-3xl mb-5 font-bold md:text-5xl md:font-extrabold">Effortless Travel Planning!<br />Let AI Be Your Expert Guide.</h1>
+          <p className="text-2xl mb-5">Bid farewell to generic holiday packages. <br /> Get Your AI-Personalised Itineraries</p>
           <button className="bg-yellow-300 hover:bg-black text-black hover:text-white transition-all border border-black font-bold py-3 px-6 rounded-md mt-4">
             Plan Itinerary For Free!
           </button>
         </div>
         
         {/* Right Side Form */}
-        <div className="bg-white bg-opacity-80 p-3 rounded-lg shadow-lg max-w-md absolute right-24 top-16">
+        <div className="bg-white bg-opacity-80 p-3 rounded-lg shadow-lg max-w-md absolute right-20 top-16 hidden lg:block">
           <h2 className="text-3xl font-bold mb-7">Get your free travel plan now</h2>
           
           <label className="block mb-2 text-lg font-bold">What do you want to explore?</label>
@@ -53,7 +53,7 @@ function HeaderSection() {
       </div>
       
       {/* Bottom Icons */}
-      <div className="absolute bottom-40  left-32 flex space-x-24 text-white text-center">
+      <div className="absolute bottom-40 left-10  md:left-32 flex space-x-24 text-white text-center">
         <div className="flex flex-col items-center">
           <img src="https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvaWNvbnMvZ2VuZXJhbC90cmF2ZWwucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIn19fQ==" alt="Icon 1" className="h-10 mb-2 invert" />
           <span>Free Personalized <br /> Itineraries</span>

@@ -42,7 +42,30 @@ function SliderPage() {
       setHideNext(next >= data.length - settings.slidesToShow);
     },
     prevArrow: <PrevArrow hidden={hidePrev} />,
-    nextArrow: <NextArrow hidden={hideNext} />
+    nextArrow: <NextArrow hidden={hideNext} />,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 4,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],  
   };
 
   const handleImageClick = () => {
@@ -64,10 +87,10 @@ function SliderPage() {
                 }}
               >
                 <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black to-transparent opacity-100"></div>
-
-                <div className="absolute flex flex-col p-4 mt-40">
-                  <h3 className="text-md font-bold text-white">{d.name}</h3>
-                  <p className="text-white text-sm mb-2">{d.price}</p>
+                
+                <div className="absolute flex flex-col p-4 mt-32 text-center md:text-left md:mt-40">
+                  <h3 className="text-xl md:text-base font-bold text-white">{d.name}</h3>
+                  <p className="text-white text-base md:text-sm">{d.price}</p>
                 </div>
               </div>
             </div>

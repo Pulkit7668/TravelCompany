@@ -2,11 +2,11 @@ import React from 'react';
 
 function TestimonialCards() {
   return (
-    <div className='h-[110vh]'>
-       <h1 className='text-4xl font-bold ml-32 mb-10'>Happy Community of The Tarzan Way</h1>
-    <div className="max-w-full grid grid-cols-1 md:grid-cols-2 gap-6 mx-28">
+    <div className='h-[180vh] mt-40 md:mt-10 md:h-[120vh]'>
+       <h1 className='text-3xl md:text-4xl font-bold md:ml-32 mb-10 text-center md:text-left'>Happy Community of The Tarzan Way</h1>
+    <div className="max-w-full grid grid-cols-1 md:grid-cols-2 gap-6 mx-10 md:mx-28">
       {/* 1st Card */}
-      <div className="rounded-lg p-6 flex gap-4">
+      <div className="rounded-lg p-6 flex gap-4 bg-white shadow-lg">
         <img
           src="https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvd2Vic2l0ZS9leHBsb3JlcnMvbmlzYWdyYS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo5MDAsImhlaWdodCI6OTAwLCJmaXQiOiJjb3ZlciJ9fX0="
           alt="User"
@@ -35,7 +35,7 @@ function TestimonialCards() {
         </div>
       </div>
       {/* 2nd Card */}
-      <div className="rounded-lg p-6 flex gap-4">
+      <div className="rounded-lg p-6 flex gap-4 bg-white shadow-lg">
         <img
           src="https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvd2Vic2l0ZS9leHBsb3JlcnMvcHJhc2VuamVldC5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo5MDAsImhlaWdodCI6OTAwLCJmaXQiOiJjb3ZlciJ9fX0="
           alt="User"
@@ -64,7 +64,7 @@ function TestimonialCards() {
         </div>
       </div>
       {/* 3rd Card */}
-      <div className="rounded-lg p-6 flex gap-4">
+      <div className="rounded-lg p-6 flex gap-4 bg-white shadow-lg">
         <img
           src="https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvd2Vic2l0ZS9JTUctMjAyMjEyMzEtV0EwMDI3LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6OTAwLCJoZWlnaHQiOjkwMCwiZml0IjoiY292ZXIifX19"
           alt="User"
@@ -89,7 +89,7 @@ function TestimonialCards() {
         </div>
       </div>
       {/* 4th Card */}
-      <div className="rounded-lg p-6 flex gap-4">
+      <div className="rounded-lg p-6 flex gap-4 bg-white shadow-lg">
         <img
           src="https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvd2Vic2l0ZS9JTUctMjAyMjEyMjAtV0EwMDI1LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6OTAwLCJoZWlnaHQiOjkwMCwiZml0IjoiY292ZXIifX19"
           alt="User"
@@ -120,7 +120,7 @@ function TestimonialCards() {
       </div>
     </div>
     <div className='flex items-center justify-center'>
-      <button className="mt-4 mb-5 px-10 py-2 text-md font-semibold text-black hover:bg-black hover:text-white transition-all border border-black rounded-md shadow-md">
+      <button className="mt-5 mb-5 px-10 py-2 text-md font-semibold text-black hover:bg-black hover:text-white transition-all border border-black rounded-md shadow-md">
             View All
       </button>
     </div>
@@ -129,4 +129,3 @@ function TestimonialCards() {
 }
 
 export default TestimonialCards;
-
