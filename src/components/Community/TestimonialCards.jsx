@@ -2,7 +2,7 @@ import React from 'react';
 
 function TestimonialCards() {
   return (
-    <div className='h-[180vh] mt-40 md:mt-10 md:h-[120vh]'>
+    <div className='h-[120vh] md:mt-10'>
        <h1 className='text-3xl md:text-4xl font-bold md:ml-32 mb-10 text-center md:text-left'>Happy Community of The Tarzan Way</h1>
     <div className="max-w-full grid grid-cols-1 md:grid-cols-2 gap-6 mx-10 md:mx-28">
       {/* 1st Card */}
