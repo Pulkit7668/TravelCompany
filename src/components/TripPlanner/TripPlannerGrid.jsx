@@ -3,7 +3,7 @@ import React from 'react';
 const TripPlannerGrid = () => {
   return (
       <div className='px-4 py-6'>
-       <h1 className='text-3xl md:text-4xl font-bold text-center md:text-left mb-8 md:ml-28'>Plan trip as per mood</h1>
+       <h1 className='text-3xl md:text-4xl font-bold text-center md:text-left mb-8 md:ml-32 3xl:ml-48'>Plan trip as per mood</h1>
        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 w-full md:w-[80vw] mx-auto">
          {/* Offbeat Trip Planner (Top-left large image) */}
          <div className="relative col-span-2 md:col-span-2 row-span-1 h-52 md:h-80">

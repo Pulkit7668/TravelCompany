@@ -2,8 +2,8 @@ import React from 'react'
 
 function TalkToUs() {
   return (
-    <div className='flex items-center justify-center mt-28'>
-        <div className='h-[500px] w-[500px]'>
+    <div className='md:flex md:items-center md:justify-center mt-28'>
+        <div className='h-[500px] w-full md:h-[500px] md:w-[500px]'>
             <img src="https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvd2Vic2l0ZS90YWxrdG91cy5zdmciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIifX19" alt="" />
         </div>
         <div className='text-center ml-10 mb-40'>

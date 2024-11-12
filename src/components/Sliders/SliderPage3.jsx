@@ -65,7 +65,7 @@ function SliderPage2() {
 
   return (
     <div className='w-5/6 h-[550px] m-auto'>
-        <h1 className='text-4xl font-bold ml-2'>Top countries to visit in Asia</h1>
+        <h1 className='text-center md:text-left text-4xl font-bold ml-2'>Top countries to visit in Asia</h1>
       <div className='mt-10'>
         <Slider {...settings}>
           {data.map((d, index) => (

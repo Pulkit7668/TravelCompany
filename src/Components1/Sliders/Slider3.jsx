@@ -37,7 +37,23 @@ function SliderPage() {
       setHideNext(next >= data.length - settings.slidesToShow);
     },
     prevArrow: <PrevArrow hidden={hidePrev} />,
-    nextArrow: <NextArrow hidden={hideNext} />
+    nextArrow: <NextArrow hidden={hideNext} />,
+    responsive: [
+      {
+        breakpoint: 1024, // Medium screens (e.g., tablets)
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 4,
+        },
+      },
+      {
+        breakpoint: 768, // Small screens (e.g., mobile)
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+    ],
   };
 
   return (

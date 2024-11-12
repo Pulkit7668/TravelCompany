@@ -42,10 +42,10 @@ const WhyPlanWithUs = () => {
 
   return (
     <>    
-    <h2 className="text-3xl font-bold mb-5 ml-28 mt-10">Why plan with us?</h2>
-    <section className="flex justify-center items-center mx-20 mb-20">
+    <h2 className="text-3xl font-bold md:ml-32 mt-10 text-center md:text-left 3xl:ml-36">Why plan with us?</h2>
+    <section className="flex justify-center items-center mx-20 mb-20 md:mt-10 h-[80vh] md:h-full">
       <div className="w-[70vw] h-[70vh] p-6">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {features.map((feature, index) => (
             <div
               key={index}
@@ -57,14 +57,14 @@ const WhyPlanWithUs = () => {
                 className="w-12 h-12 rounded-lg mr-4"
               />
               <div>
-                <h3 className="font-bold text-2xl mb-2">{feature.title}</h3>
+                <h3 className="font-bold text-xl mb-2">{feature.title}</h3>
                 <p className="text-gray-600">{feature.description}</p>
               </div>
             </div>
           ))}
         </div>
       </div>
-      <div className="p-3 rounded-lg shadow-lg max-w-sm">
+      <div className="p-3 rounded-lg shadow-lg max-w-sm hidden xl:block 3xl:mb-96">
           <h2 className="text-3xl font-bold mb-5">Get your free travel plan now</h2>
           
           <label className="block mb-2 text-lg font-bold">What do you want to explore?</label>

@@ -3,8 +3,8 @@ import React from 'react';
 const HowItWorks = () => {
   return (
     <div className="bg-white ml-10 mr-10 py-16">
-      <h2 className="text-4xl font-bold mb-8 ml-16">How it works?</h2>
-      <div className="flex flex-wrap justify-center gap-24">
+      <h2 className="text-4xl font-bold mb-8 text-center md:text-left md:ml-16 3xl:ml-40">How it works?</h2>
+      <div className="flex flex-wrap justify-center gap-20 md:gap-24 3xl:gap-52">
         <div className="max-w-sm text-center mb-10">
           <div className="my-4">
             <img src="https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvd2Vic2l0ZS93aHl1cy0xLndlYnAiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn19fQ==" alt="Handpick Selection" className="mx-auto h-60 w-60" />
@@ -43,8 +43,8 @@ const HowItWorks = () => {
         </div>
       </div>
       <div className='flex items-center justify-center'> 
-        <button className="mt-8 hover:bg-black text-black hover:text-white border border-black text-center transition-all duration-300 text-md font-semibold py-1 px-10 rounded-lg">
-           Unlock your adventure
+        <button className="mt-8 hover:bg-black text-black hover:text-white border border-black text-center transition-all font-bold py-2 px-24 rounded-lg">
+          Unlock your adventure
         </button>
       </div>
     </div>
@@ -52,3 +52,4 @@ const HowItWorks = () => {
 };
 
 export default HowItWorks;
+

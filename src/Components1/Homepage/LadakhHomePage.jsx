@@ -2,12 +2,12 @@ import React from 'react';
 
 function LadakhHomePage() {
   return (
-    <header className="relative h-screen overflow-hidden">
+    <header className="relative h-[60vh] sm:h-[70vh] md:h-[100vh] 3xl:h-[60vh] overflow-hidden">
       {/* Background Image */}
       <img
         src="https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvcGFnZS8xNjc0NjMyMzQxMjI0NjIxNTM0MzQ3NTM0MTc5NjkuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoyMjQwLCJoZWlnaHQiOjEwNDAsImZpdCI6ImNvdmVyIn19fQ=="
         alt="Background"
-        className="absolute inset-0 w-full h-5/6 object-cover"
+        className="absolute inset-0 w-[100%] h-5/6 object-cover"
       />
       
       {/* Dark Overlay */}
@@ -17,16 +17,16 @@ function LadakhHomePage() {
       <div className="relative flex items-center justify-between px-10 h-full">
         
         {/* Left Side Text Content */}
-        <div className="text-white max-w-5xl space-y-6 absolute top-16 left-24">
-          <h1 className="text-5xl font-extrabold leading-tight">Ladakh Trip Planner</h1>
-          <p className="text-2xl">Bid farewell to generic holiday packages. <br /> Get Your AI-Personalised Itineraries</p>
+        <div className="text-white md:space-y-6 absolute top-40 md:top-16 sm:left-28 md:left-24 left-32 text-center md:text-left">
+          <h1 className="text-xl mb-5 sm:text-2xl md:text-5xl font-bold md:font-extrabold leading-tight">Ladakh Trip Planner</h1>
+          <p className="text-xl sm:text-2xl">Bid farewell to generic holiday packages. <br /> Get Your AI-Personalised Itineraries</p>
           <button className="bg-yellow-300 hover:bg-black text-black hover:text-white transition-all border border-black font-bold py-3 px-6 rounded-md mt-4">
             Plan Itinerary For Free!
           </button>
         </div>
         
         {/* Right Side Form */}
-        <div className="bg-white bg-opacity-80 p-3 rounded-lg shadow-lg max-w-md absolute right-24 top-16">
+        <div className="bg-white bg-opacity-80 p-3 rounded-lg shadow-lg max-w-md absolute right-24 top-16 hidden lg:block">
           <h2 className="text-3xl font-bold mb-7">Get your free travel plan now</h2>
           
           <label className="block mb-2 text-lg font-bold">What do you want to explore?</label>
@@ -54,7 +54,7 @@ function LadakhHomePage() {
       </div>
       
       {/* Bottom Icons */}
-      <div className="absolute bottom-40  left-32 flex space-x-24 text-white text-center">
+      <div className="absolute bottom-48 mx-5 sm:bottom-52 sm:mx-10 md:bottom-40 md:left-32 flex space-x-24 text-white text-center">
         <div className="flex flex-col items-center">
           <img src="https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvaWNvbnMvZ2VuZXJhbC90cmF2ZWwucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIn19fQ==" alt="Icon 1" className="h-10 mb-2 invert" />
           <span>Free Personalized <br /> Itineraries</span>

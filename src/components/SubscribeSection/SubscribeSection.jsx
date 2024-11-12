@@ -2,7 +2,7 @@ import React from 'react';
 
 const SubscribeSection = () => {
   return (
-      <div className="w-full h-[50vh] bg-[#F7E700] text-center py-16 mt-5">
+    <div className="w-full h-[50vh] bg-[#F7E700] text-center py-16 mt-5">
       <h2 className="text-2xl md:text-4xl font-bold mb-4">Join The Tarzan Way Community</h2>
       <p className="text-lg md:text-2xl mb-12">Get Early Bird Deals, Extra Discounts & Priority Customer Support.</p>
       <div className="flex flex-col md:flex-row justify-center items-center gap-4">

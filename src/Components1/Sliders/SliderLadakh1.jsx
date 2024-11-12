@@ -37,12 +37,35 @@ function SliderLadakh1() {
       setHideNext(next >= data.length - settings.slidesToShow);
     },
     prevArrow: <PrevArrow hidden={hidePrev} />,
-    nextArrow: <NextArrow hidden={hideNext} />
+    nextArrow: <NextArrow hidden={hideNext} />,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 4,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+      {
+        breakpoint: 480, 
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
     <div className='w-5/6 h-[500px] m-auto'>
-      <h1 className='text-4xl font-bold ml-2'>Top locations across Ladakh</h1>
+      <h1 className='text-2xl text-center md:text-left md:text-4xl font-bold ml-2'>Top locations across Ladakh</h1>
       <div className='mt-20'>
         <Slider {...settings}>
           {data.map((d, index) => (
