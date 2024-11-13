@@ -43,7 +43,7 @@ const HowItWorks = () => {
         </div>
       </div>
       <div className='flex items-center justify-center'> 
-        <button className="mt-8 hover:bg-black text-black hover:text-white border border-black text-center transition-all font-bold py-2 px-24 rounded-lg">
+        <button className="mt-8 hover:bg-black text-black hover:text-white border border-black text-center transition-all font-bold py-2 px-24 xs:px-20 rounded-lg">
           Unlock your adventure
         </button>
       </div>

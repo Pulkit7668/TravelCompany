@@ -41,14 +41,14 @@ function SliderPage2() {
   };
 
   return (
-    <div className='w-5/6 h-[700px] m-auto'>
-        <h1 className='text-4xl font-bold ml-2'>Plan your trip anywhere in the world</h1>
+    <div className='w-5/6 h-[700px] xs:h-[500px] m-auto'>
+        <h1 className='text-4xl font-bold ml-2 xs:text-xl xs:text-center'>Plan your trip anywhere in the world</h1>
       <div className='mt-10'>
         <Slider {...settings}>
           {data.map((d, index) => (
             <div key={index} className='bg-white h-full text-black rounded-3xl overflow-hidden relative'>
               <div
-                className='h-[550px] rounded-xl flex items-center justify-center bg-cover bg-center transition-transform duration-300 transform hover:scale-110'
+                className='h-[550px] xs:h-[400px] rounded-xl flex items-center justify-center bg-cover bg-center transition-transform duration-300 transform hover:scale-110'
                 style={{
                   backgroundImage: `url(${d.image})`
                 }}
@@ -57,7 +57,7 @@ function SliderPage2() {
                 <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black to-transparent opacity-100"></div>
                 {/* content */}
                 <div className="absolute flex flex-col text-center">
-                  <h3 className="text-8xl font-bold text-white mb-5">{d.name}</h3>
+                  <h3 className="text-8xl font-bold text-white mb-5 xs:text-4xl">{d.name}</h3>
                   <p className="text-white text-4xl font-light">{d.title}</p>
                 </div>
               </div>

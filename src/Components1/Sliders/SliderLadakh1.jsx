@@ -65,8 +65,8 @@ function SliderLadakh1() {
 
   return (
     <div className='w-5/6 h-[500px] m-auto'>
-      <h1 className='text-2xl text-center md:text-left md:text-4xl font-bold ml-2'>Top locations across Ladakh</h1>
-      <div className='mt-20'>
+      <h1 className='text-2xl text-center xs:text-lg md:text-left md:text-4xl font-bold ml-2'>Top locations across Ladakh</h1>
+      <div className='mt-20 xs:mt-5'>
         <Slider {...settings}>
           {data.map((d, index) => (
             <div key={index} className='h-full text-black rounded-xl overflow-hidden relative'>

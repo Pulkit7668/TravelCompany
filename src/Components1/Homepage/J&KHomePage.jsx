@@ -2,12 +2,12 @@ import React from 'react';
 
 function JandKHomePage() {
   return (
-    <header className="relative h-[60vh] sm:h-[70vh] md:h-[100vh] 3xl:h-[60vh] overflow-hidden">
+    <header className="relative h-[60vh] xs:h-[60vh] sm:h-[70vh] md:h-[100vh] 3xl:h-[60vh] overflow-hidden">
       {/* Background Image */}
       <img
         src="https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvcGFnZS8xNjc0NjM1MDYxMDA4NTA0MzkwNzE2NTUyNzM0MzguanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoyMjQwLCJoZWlnaHQiOjEwNDAsImZpdCI6ImNvdmVyIn19fQ=="
         alt="Background"
-        className="absolute inset-0 w-[100%] h-5/6 object-cover"
+        className="absolute inset-0 w-[100%] h-5/6 xs:w-full object-cover"
       />
       
       {/* Shadow */}
@@ -16,10 +16,10 @@ function JandKHomePage() {
       {/* Content */}
       <div className="relative flex items-center justify-between px-10 h-full">
         {/* Left Side Text Content */}
-        <div className="text-white md:space-y-6 absolute top-40 md:top-16 sm:left-28 md:left-24 left-32 text-center md:text-left">
-          <h1 className="text-xl mb-5 font-bold sm:text-2xl md:text-5xl md:font-extrabold leading-tight">Jammu & Kashmir Trip Planner</h1>
-          <p className="text-xl mb-5 sm:text-2xl">Bid farewell to generic holiday packages. <br /> Get Your AI-Personalised Itineraries</p>
-          <button className="bg-yellow-300 hover:bg-black text-black hover:text-white transition-all border border-black font-bold py-3 px-6 rounded-md mt-4">
+        <div className="text-white md:space-y-6 absolute top-40 md:top-16 xs:top-28 xs:left-20 sm:left-28 md:left-24 left-32 text-center md:text-left">
+          <h1 className="text-xl mb-5 xs:mb-2 font-bold sm:text-2xl md:text-5xl md:font-extrabold leading-tight">Jammu & Kashmir Trip Planner</h1>
+          <p className="text-xl mb-5 xs:mb-2 sm:text-2xl xs:text-base">Bid farewell to generic holiday packages. <br /> Get Your AI-Personalised Itineraries</p>
+          <button className="bg-yellow-300 hover:bg-black text-black hover:text-white transition-all border border-black font-bold py-3 px-6 rounded-md mt-4 xs:py-1">
             Plan Itinerary For Free!
           </button>
         </div>
@@ -53,7 +53,7 @@ function JandKHomePage() {
       </div>
       
       {/* Bottom Icons */}
-      <div className="absolute bottom-48 mx-5 sm:bottom-52 sm:mx-10 md:bottom-40 md:left-32 flex space-x-24 text-white text-center">
+      <div className="absolute bottom-48 mx-5 sm:bottom-52 sm:mx-10 md:bottom-40 md:left-32 xs:space-x-16 xs:bottom-24 flex space-x-24 text-white text-center">
         <div className="flex flex-col items-center">
           <img src="https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvaWNvbnMvZ2VuZXJhbC90cmF2ZWwucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIn19fQ==" alt="Icon 1" className="h-10 mb-2 invert" />
           <span>Free Personalized <br /> Itineraries</span>

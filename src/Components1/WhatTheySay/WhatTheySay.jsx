@@ -39,7 +39,7 @@ export default function WhatTheySay() {
   };
 
   return (
-    <div className="mt-20 h-[80vh] mx-20">
+    <div className="mt-20 h-[80vh] mx-20 xs:hidden">
       <h1 className="text-4xl font-bold mb-10 ">What they say?</h1>
       <div className="flex flex-col items-center py-10">
         {/* Logos */}

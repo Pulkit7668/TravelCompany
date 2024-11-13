@@ -76,7 +76,7 @@ function SliderLadakh2() {
                 {d.price && <p className="text-lg font-bold mt-1 text-black">{d.price}</p>}
               </div>
               <div>
-                  <button className="bg-[#F7E700] text-black text-sm font-semibold mt-5 px-36 py-1 rounded-lg border border-black hover:bg-black hover:text-white transition-all">View Details</button>
+                  <button className="bg-[#F7E700] text-black text-sm font-semibold mt-5 px-36 xs:px-28 py-1 rounded-lg border border-black hover:bg-black hover:text-white transition-all">View Details</button>
               </div>
             </div>
           ))}

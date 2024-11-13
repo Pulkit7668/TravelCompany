@@ -41,7 +41,7 @@ const WhyPlanWithUs = () => {
   ];
 
   return (
-    <section className="flex justify-center items-center md:mt-10 h-[80vh] md:h-full">
+    <section className="flex justify-center items-center md:mt-10 h-[80vh] xs:h-[80vh] md:h-full">
       <div className="w-[80vw] h-[80vh] p-6">
         <h2 className="text-3xl font-bold mb-8 text-center md:text-left">Why plan with us?</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -56,7 +56,7 @@ const WhyPlanWithUs = () => {
                 className="w-12 h-12 rounded-lg mr-4"
               />
               <div>
-                <h3 className="font-bold text-2xl mb-2">{feature.title}</h3>
+                <h3 className="font-bold text-2xl mb-2 xs:text-lg">{feature.title}</h3>
                 <p className="text-gray-600">{feature.description}</p>
               </div>
             </div>

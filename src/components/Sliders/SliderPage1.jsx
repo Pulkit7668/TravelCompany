@@ -74,7 +74,7 @@ function SliderPage() {
 
   return (
     <div className='w-5/6 h-[400px] m-auto'>
-      <h1 className='text-2xl text-center md:text-left md:text-4xl font-bold ml-2'>Plan as per the best destinations in India</h1>
+      <h1 className='text-2xl text-center md:text-left md:text-4xl font-bold ml-2 xs:text-xl'>Plan as per the best destinations in India</h1>
       <div className='mt-10'>
         <Slider {...settings}>
           {data.map((d, index) => (
@@ -89,8 +89,8 @@ function SliderPage() {
                 <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black to-transparent opacity-100"></div>
                 
                 <div className="absolute flex flex-col p-4 mt-32 text-center md:text-left md:mt-40">
-                  <h3 className="text-xl md:text-base font-bold text-white">{d.name}</h3>
-                  <p className="text-white text-base md:text-sm">{d.price}</p>
+                  <h3 className="text-xl md:text-base font-bold text-white xs:text-2xl">{d.name}</h3>
+                  <p className="text-white text-base md:text-sm xs:text-xl">{d.price}</p>
                 </div>
               </div>
             </div>

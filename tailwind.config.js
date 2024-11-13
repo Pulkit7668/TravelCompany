@@ -7,6 +7,7 @@ export default {
   theme: {
     extend: {
       screens: {
+        'xs' : {'min' : '300px', 'max' : '480px'},
         '3xl': '1600px',  // New custom screen size
       },
     },

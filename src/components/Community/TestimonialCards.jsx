@@ -2,18 +2,18 @@ import React from 'react';
 
 function TestimonialCards() {
   return (
-    <div className='sm:h-[140vh] md:h-[120vh] md:mt-10'>
-       <h1 className='text-3xl md:text-4xl font-bold md:ml-32 mb-10 text-center md:text-left'>Happy Community of The Tarzan Way</h1>
+    <div className='sm:h-[140vh] md:h-[120vh] md:mt-10 xs:mt-[450px]'>
+       <h1 className='text-3xl md:text-4xl font-bold md:ml-32 mb-10 text-center md:text-left xs:text-xl'>Happy Community of The Tarzan Way</h1>
     <div className="max-w-full grid grid-cols-1 md:grid-cols-2 gap-6 mx-10 md:mx-28">
       {/* 1st Card */}
       <div className="rounded-lg p-6 flex gap-4 bg-white shadow-lg">
         <img
           src="https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvd2Vic2l0ZS9leHBsb3JlcnMvbmlzYWdyYS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo5MDAsImhlaWdodCI6OTAwLCJmaXQiOiJjb3ZlciJ9fX0="
           alt="User"
-          className="w-60 h-60 rounded-lg object-cover"
+          className="w-60 h-60 xs:w-20 xs:h-20 rounded-lg object-cover"
         />
         <div>
-          <p className="text-black text-sm">
+          <p className="text-black text-sm xs:text-xs">
             The Tarzan way team I can’t thank you enough for <br /> helping me plan my
             trip. You guys are amazing. <br /> Janhavi & Devyani and the entire team
             kept <br /> checking on me. The entire team was so responsive & <br /> planned
@@ -35,7 +35,7 @@ function TestimonialCards() {
         </div>
       </div>
       {/* 2nd Card */}
-      <div className="rounded-lg p-6 flex gap-4 bg-white shadow-lg">
+      <div className="rounded-lg p-6 flex gap-4 bg-white shadow-lg xs:hidden">
         <img
           src="https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvd2Vic2l0ZS9leHBsb3JlcnMvcHJhc2VuamVldC5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo5MDAsImhlaWdodCI6OTAwLCJmaXQiOiJjb3ZlciJ9fX0="
           alt="User"
@@ -64,7 +64,7 @@ function TestimonialCards() {
         </div>
       </div>
       {/* 3rd Card */}
-      <div className="rounded-lg p-6 flex gap-4 bg-white shadow-lg">
+      <div className="rounded-lg p-6 flex gap-4 bg-white shadow-lg xs:hidden">
         <img
           src="https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvd2Vic2l0ZS9JTUctMjAyMjEyMzEtV0EwMDI3LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6OTAwLCJoZWlnaHQiOjkwMCwiZml0IjoiY292ZXIifX19"
           alt="User"
@@ -89,7 +89,7 @@ function TestimonialCards() {
         </div>
       </div>
       {/* 4th Card */}
-      <div className="rounded-lg p-6 flex gap-4 bg-white shadow-lg">
+      <div className="rounded-lg p-6 flex gap-4 bg-white shadow-lg xs:hidden">
         <img
           src="https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvd2Vic2l0ZS9JTUctMjAyMjEyMjAtV0EwMDI1LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6OTAwLCJoZWlnaHQiOjkwMCwiZml0IjoiY292ZXIifX19"
           alt="User"
