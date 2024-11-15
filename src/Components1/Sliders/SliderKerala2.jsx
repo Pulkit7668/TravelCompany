@@ -22,7 +22,7 @@ const NextArrow = ({ onClick, hidden }) => (
   </div>
 );
 
-function SliderJK2() {
+function SliderKerala2() {
   const [hidePrev, setHidePrev] = useState(true);
   const [hideNext, setHideNext] = useState(false);
 
@@ -86,48 +86,47 @@ function SliderJK2() {
   );
 }
 
-export default SliderJK2;
+export default SliderKerala2;
 
 
 const data = [
     {
-        name:`Nikita Romantic Getaway to Jammu & Kashmir`,
-        location:`Gulmarg • Sonamarg • Srinagar`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NTQwMDM1MDgwMDM4NjAyMzUyMTQyMzMzOTg0NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMDAsImhlaWdodCI6NTAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
-        title:`Curated by Nikita Awchar`,
-        price:`₹97,832/- for 2 people`
+        name:`Volunteering in The Heritage City- Mysore`,
+        location:`Shravanabelagola • Kochi • Mandya • Ooty • Coorg`,
+        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvaXRpbmVyYXJ5LzE1NTk4OTE2NDFfc2h1dHRlcnN0b2NrXzE1Mjk0MTgzMi5qcGcuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjUwMCwiZml0IjoiY292ZXIifX19`,
+        title:`Curated by Muskan`,
+        price:`₹62,519/- for 2 people`
     },
     {
-        name:`Winter Wonderland Kashmir`,
-        location:`Gulmarg • Srinagar • Pahalgam • New Delhi`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvaXRpbmVyYXJ5L3phbnNrYXIuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTAwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn19fQ==`,
-        title:`Handcraft by us`,
+        name:`Ayush's Gateway with Friends to Kerala`,
+        location:`Trivandrum • Thekkady • Munnar • Kochi`,
+        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2ODU1MzA4MTAwNTY1MzMwOTgyMjA4MjUxOTUzMS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjUwMCwiZml0IjoiY292ZXIifX19`,
+        title:`Curated by Ayush Mittal`,
+        price:`₹1,08,828/- for 3 people`
     },
     {
-        name:`Kashmir Ladakh Escapade`,
-        location:`Kargil • Leh, Ladakh • Srinagar • Pangong Tso • New Delhi`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvaXRpbmVyYXJ5L3NhbmdhbS1wb2ludC1sZWgtbGFkYWtoLTExMTh4NTMwLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTAwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn19fQ==`,
-        title:`Curated by Amrendra`,
-        price:`₹1,14,169/- for 4 people`
+        name:`Kerala - Itinerary`,
+        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NjIzNzcwNjcyNTUwOTMzMzYxMDUzNDY2Nzk2OS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjUwMCwiZml0IjoiY292ZXIifX19`,
+        title:`Curated by Visakh`,
+        price:`₹4,943/- for 4 people`
     },
     {
-        name:`NY in Winter wonderland of Kashmir`,
-        location:`Gulmarg • Srinagar • Pahalgam`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvaXRpbmVyYXJ5L3phbnNrYXIuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTAwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn19fQ==`,
-        title:`Curated by Physics wallah`,
-        price:`₹10,828/- per person`
+        name:`Kerala - Itinerary`,
+        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NjIzNzcwNjcyNTUwOTMzMzYxMDUzNDY2Nzk2OS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjUwMCwiZml0IjoiY292ZXIifX19`,
+        title:`Curated by Visakh`,
+        price:`₹4,943/- for 4 people`
     },
     {
-        name:`Nikhil's Gateway with Friends to Vaishno Devi`,
-        location:`Vaishno Devi`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NzY0OTI5MTEzMTc2MDE2ODA3NTU2MTUyMzQzOC5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo0MDAsImhlaWdodCI6NDAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
-        title:`Curated by Nikhil Parmar`,
+        name:`Priyanshu's Getaway With Friends To Trivandrum`,
+        location:`Trivandrum`,
+        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2ODU1MzA4MTAwNTY1MzMwOTgyMjA4MjUxOTUzMS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjUwMCwiZml0IjoiY292ZXIifX19`,
+        title:`Curated by Priyanshu Sharma`,
     },
     {
-        name:`Abhishek's Family Excursion in Jammu & Kashmir`,
-        location:`Sonamarg • Srinagar • Pahalgam`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NTY0Mjk0OTE1MTI1NzAzODExNjQ1NTA3ODEyNS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMDAsImhlaWdodCI6NTAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
-        title:`Curated by Abhishek`,
-        price:`₹2,12,726/- for 9 people`
+        name:`Mahesh's Family Trip To Phuket`,
+        location:`Phuket`,
+        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2ODU1MzA1NDczNDU1OTM2OTA4NzIxOTIzODI4MS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjUwMCwiZml0IjoiY292ZXIifX19`,
+        title:`Curated by Mahesh Kumar ps`,
+        price:`₹3,94,076/- for 5 people`
     },
 ]

@@ -10,8 +10,8 @@ const Form = ({ onClose }) => {
   const [notSure, setNotSure] = useState(false);
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
-      <div className="bg-white p-6 rounded-lg max-w-md w-full relative">
+    <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
+      <div className="bg-white p-6 rounded-lg max-w-md w-full h-[80vh] relative">
         {/* Close Icon */}
         <button onClick={onClose} className="absolute top-4 right-4 text-gray-500 hover:text-gray-800">
           <FaTimes size={20} />
@@ -50,6 +50,10 @@ const Form = ({ onClose }) => {
         {/* Date Picker Fields */}
         <div className="mb-4">
           <label className="block font-semibold text-gray-700 mb-1">When are you planning to travel?</label>
+          <div className='text-md font-bold flex items-center justify-between mr-32 mb-1'>
+            <p className='text-black'>Start Date</p>
+            <p className='text-black'>End Date</p>
+          </div>
           <div className="flex space-x-4">
             <div className="relative flex-1">
               <DatePicker

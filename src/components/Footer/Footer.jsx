@@ -8,35 +8,35 @@ const Footer = () => {
         {/* Left Section */}
         <div className="mb-8 md:mb-0">
           <div className="flex items-center mb-4">
-            <div className="flex items-center relative xs:-left-5">
+            <div className="flex items-center relative xs:-left-5 md:-left-20">
               <img src="https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvd2Vic2l0ZS9sb2dvLW9ubHkuc3ZnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIn19fQ==" alt="logo" className="w-16 h-16 invert" />
               <span className="text-xl font-bold text-white absolute left-12 bottom-2">thetarzanway</span>
              </div>
           </div>
-          <p className="text-white mb-5 mt-8 xs:text-sm xs:-ml-5">
+          <p className="text-white mb-5 mt-8 xs:text-sm xs:-ml-5 md:-ml-20">
             The Tarzan Way is a travel-based startup <br className='xs:hidden' /> with the vision to simplify travel and build <br className='xs:hidden' /> immersive travel programs across India.
           </p>
-          <div className="flex gap-4 mb-4 xs:-ml-5">
-            <div className="p-2 border border-white rounded-full hover:bg-[#1D9BF0] hover:border-[#1D9BF0] transition-all">
+          <div className="flex gap-4 mb-4 xs:-ml-5 md:-ml-20">
+            <div className="p-2 lg:p-2 md:p-1 border border-white rounded-full hover:bg-[#1D9BF0] hover:border-[#1D9BF0] transition-all">
               <FaTwitter className="text-white" size={24} />
             </div>
-            <div className="p-2 border border-white rounded-full hover:bg-[#3B5998] hover:border-[#3B5998] transition-all">
+            <div className="p-2 lg:p-2 md:p-1 border border-white rounded-full hover:bg-[#3B5998] hover:border-[#3B5998] transition-all">
               <FaFacebook className="text-white" size={24} />
             </div>
-            <div className="p-2 border border-white rounded-full group hover:bg-gradient-to-bl hover:from-[#515BD4] hover:via-[#DD2A7B] hover:to-[#F58529] transition-all">
+            <div className="p-2 lg:p-2 md:p-1 border border-white rounded-full group hover:bg-gradient-to-bl hover:from-[#515BD4] hover:via-[#DD2A7B] hover:to-[#F58529] transition-all">
               <FaInstagram className="text-white" size={24} />
             </div>
-            <div className="p-2 border border-white rounded-full hover:bg-[#0072B1] hover:border-[#0072B1] transition-all">
+            <div className="p-2 lg:p-2 md:p-1 border border-white rounded-full hover:bg-[#0072B1] hover:border-[#0072B1] transition-all">
               <FaLinkedin className="text-white" size={24} />
             </div>
-            <div className="p-2 border border-white rounded-full hover:bg-[#E60023] hover:border-[#E60023] transition-all">
+            <div className="p-2 lg:p-2 md:p-1 border border-white rounded-full hover:bg-[#E60023] hover:border-[#E60023] transition-all">
               <FaPinterest className="text-white" size={24} />
             </div>
           </div>
           <div>
-            <p className="font-bold mb-3 xs:-ml-5 xs:text-lg">Contact Us</p>
-            <p className="text-white xs:-ml-5">+91 95821 25476</p>
-            <p className="text-white xs:-ml-5">info@thetarzanway.com</p>
+            <p className="font-bold mb-3 xs:-ml-5 xs:text-lg md:-ml-20">Contact Us</p>
+            <p className="text-white xs:-ml-5 md:-ml-20">+91 95821 25476</p>
+            <p className="text-white xs:-ml-5 md:-ml-20">info@thetarzanway.com</p>
           </div>
         </div>
 

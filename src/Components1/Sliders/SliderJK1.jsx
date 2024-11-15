@@ -22,7 +22,7 @@ const NextArrow = ({ onClick, hidden }) => (
   </div>
 );
 
-function Slider1() {
+function SliderJK() {
   const [hidePrev, setHidePrev] = useState(true);
   const [hideNext, setHideNext] = useState(false);
 
@@ -89,7 +89,7 @@ function Slider1() {
   );
 }
 
-export default Slider1;
+export default SliderJK;
 
 
 const data = [

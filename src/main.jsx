@@ -1,11 +1,15 @@
 import { createRoot } from 'react-dom/client';
 import './index.css';
-import App from './App.jsx';
-import JandK from './JandK.jsx'
-import Ladakh from './Ladakh.jsx'
 import { Auth0Provider } from '@auth0/auth0-react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import App from './App.jsx';
+import JandK from './Pages/JandK.jsx'
+import Ladakh from './Pages/Ladakh.jsx'
+import Kerala from './Pages/Kerala.jsx';
+import Rajasthan from './Pages/Rajasthan.jsx';
 import SearchPage from './components/NavBar/SearchPage.jsx'
+import AndamanNicobar from './Pages/AndamanNicobar.jsx';
+
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
@@ -18,8 +22,11 @@ createRoot(document.getElementById('root')).render(
     >
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/jandk" element={<JandK />} /> {/* Define /app1 route */}
-        <Route path="/ladakh" element={<Ladakh />} /> {/* Define /app1 route */}
+        <Route path="/jandk" element={<JandK />} />
+        <Route path="/ladakh" element={<Ladakh />} />
+        <Route path="/kerala" element={<Kerala />} />
+        <Route path="/rajasthan" element={<Rajasthan />} /> 
+        <Route path="/andaman&nicobar" element={<AndamanNicobar />} /> 
         <Route path="/search" element={<SearchPage />} />
       </Routes>
     </Auth0Provider>
