@@ -9,6 +9,8 @@ import Kerala from './Pages/Kerala.jsx';
 import Rajasthan from './Pages/Rajasthan.jsx';
 import SearchPage from './components/NavBar/SearchPage.jsx'
 import AndamanNicobar from './Pages/AndamanNicobar.jsx';
+import HimachalPradesh from './Pages/HimachalPradesh';
+import Uttarakhand from './Pages/Uttarakhand';
 
 
 createRoot(document.getElementById('root')).render(
@@ -27,6 +29,8 @@ createRoot(document.getElementById('root')).render(
         <Route path="/kerala" element={<Kerala />} />
         <Route path="/rajasthan" element={<Rajasthan />} /> 
         <Route path="/andaman&nicobar" element={<AndamanNicobar />} /> 
+        <Route path="/himachalpradesh" element={<HimachalPradesh />} />
+        <Route path="/uttarakhand" element={<Uttarakhand />} />
         <Route path="/search" element={<SearchPage />} />
       </Routes>
     </Auth0Provider>

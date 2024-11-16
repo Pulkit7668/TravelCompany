@@ -1,12 +1,23 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useAuth0 } from "@auth0/auth0-react";
 import { useNavigate } from 'react-router-dom';
+import Form from '../HeaderSection/Form'
 
 function Navbar() {
   const { user, loginWithRedirect, isAuthenticated, logout } = useAuth0();
   const navigate = useNavigate();
   const [menuOpen, setMenuOpen] = useState(false);
   const menuRef = useRef(null);
+
+  const [isFormOpen, setIsFormOpen] = useState(false);
+
+  const handleFormOpen = () => {
+    setIsFormOpen(true);
+  };
+
+  const handleFormClose = () => {
+    setIsFormOpen(false);
+  };
 
   const handleSearchClick = () => {
     navigate('/search');
@@ -56,9 +67,10 @@ function Navbar() {
 
       {/* Buttons */}
       <div className="flex items-center space-x-4 mr-10">
-        <button className="bg-yellow-300 text-black hover:bg-black hover:text-white border border-black font-semibold py-2 px-4 rounded-md transition-all hidden md:block">
+        <button onClick={() => handleFormOpen(true)} className="bg-yellow-300 text-black hover:bg-black hover:text-white border border-black font-semibold py-2 px-4 rounded-md transition-all hidden md:block">
           Create a Trip
         </button>
+        {isFormOpen && <Form onClose={handleFormClose} />}
 
         {/* Search Icon (for mobile) */}
         <button onClick={handleSearchClick} className="md:hidden bg-gray-200 rounded-full p-1">

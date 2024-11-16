@@ -1,6 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Form from '../../components/HeaderSection/Form'
 
 function RajasthanHomePage() {
+
+  const [isFormOpen, setIsFormOpen] = useState(false);
+
+  const handleFormOpen = () => {
+    setIsFormOpen(true);
+  };
+
+  const handleFormClose = () => {
+    setIsFormOpen(false);
+  };
+  
   return (
     <header className="relative h-[60vh] xs:h-[60vh] sm:h-[70vh] md:h-[100vh] 3xl:h-[60vh] overflow-hidden">
       {/* Background Image */}
@@ -19,9 +31,10 @@ function RajasthanHomePage() {
         <div className="text-white md:space-y-6 absolute top-40 md:top-16 xs:top-28 xs:left-20 sm:left-28 md:left-24 left-32 text-center md:text-left">
           <h1 className="text-xl mb-5 xs:mb-2 font-bold sm:text-2xl md:text-5xl md:font-extrabold leading-tight">Rajasthan Trip Planner</h1>
           <p className="text-xl mb-5 xs:mb-2 sm:text-2xl xs:text-base">Bid farewell to generic holiday packages. <br /> Get Your AI-Personalised Itineraries</p>
-          <button className="bg-yellow-300 hover:bg-black text-black hover:text-white transition-all border border-black font-bold py-3 px-6 rounded-md mt-4 xs:py-1">
+          <button onClick={() => handleFormOpen(true)} className="bg-yellow-300 hover:bg-black text-black hover:text-white transition-all border border-black font-bold py-3 px-6 rounded-md mt-4 xs:py-1">
             Plan Itinerary For Free!
           </button>
+          {isFormOpen && <Form onClose={handleFormClose} />}
         </div>
         
         {/* Right Side Form */}

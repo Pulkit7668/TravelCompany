@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react'
 import Navbar from "../components/NavBar/NavBar"
 import KeralaHomePage from "../Components1/Homepage/KeralaHomepage"
-import SliderKerala1 from '../Components1/Sliders/SliderKerala1'
-import SliderKerala2 from '../Components1/Sliders/SliderKerala2'
+import SliderKerala1 from '../Components1/Sliders/KeralaSliders/SliderKerala1'
+import SliderKerala2 from '../Components1/Sliders/KeralaSliders/SliderKerala2'
 import AboutKerala from '../Components1/About/AboutKerala'
 import HowItWorks from "../Components1/HowItWorks/HowItWorks"
 import Footer from "../components/Footer/Footer"
 import SubscribeSection from "../components/SubscribeSection/SubscribeSection"
-import Slider3 from "../Components1/Sliders/Slider3"
+import OtherDistinations from "../Components1/Sliders/OtherDistinations"
 import WhyPlanWithUs from "../Components1/WhyPlanWithUsJ&K/WhyPlanWithUs"
 import Community from "../components/Community/TestimonialCards"
 import WhatTheySay from "../Components1/WhatTheySay/WhatTheySay"
@@ -28,7 +28,7 @@ function Kerala() {
     <SliderKerala2 />
     <AboutKerala />
     <HowItWorks />
-    <Slider3 />
+    <OtherDistinations />
     <WhyPlanWithUs />
     <Community />
     <WhatTheySay />

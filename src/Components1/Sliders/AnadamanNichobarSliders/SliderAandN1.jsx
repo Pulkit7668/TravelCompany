@@ -94,43 +94,43 @@ export default SliderAandN1;
 
 const data = [
     {
-        name:`Neil Island`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NTY2NzQzNDAxNzQ0MjYzMTcyMTQ5NjU4MjAzMS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo0MDAsImhlaWdodCI6NDAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
-        title:`Beaches, Scuba Diving`
+      name:`Neil Island`,
+      image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NTY2NzQzNDAxNzQ0MjYzMTcyMTQ5NjU4MjAzMS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo0MDAsImhlaWdodCI6NDAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
+      title:`Beaches, Scuba Diving`
     },
     {
-        name:`Port Blair`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NTcwMjA2NjQ5MjU3NTI2Mzk3NzA1MDc4MTI1MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6ImNvdmVyIn19fQ==`,
-        title:`Beaches, Islands, Marine Life`
+      name:`Port Blair`,
+      image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NTcwMjA2NjQ5MjU3NTI2Mzk3NzA1MDc4MTI1MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6ImNvdmVyIn19fQ==`,
+      title:`Beaches, Islands, Marine Life`
     },
     {
-        name:`Havelock`,
-        image:`https://lh5.googleusercontent.com/p/AF1QipPqIyFDF2QBv1jFgiQnJUvfm8CQ5b4ESGtiWOtv=w675-h390-n-k-no`,
-        title:`Beaches, Scuba Diving`
+      name:`Havelock`,
+      image:`https://lh5.googleusercontent.com/p/AF1QipPqIyFDF2QBv1jFgiQnJUvfm8CQ5b4ESGtiWOtv=w675-h390-n-k-no`,
+      title:`Beaches, Scuba Diving`
     },
     {
-        name:`Mayabunder`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NjU0NzI0MDg1Nzg0MDk5MTAyMDIwMjYzNjcxOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6ImNvdmVyIn19fQ==`,
-        title:`Beaches, Pristine, Remote`
+      name:`Mayabunder`,
+      image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NjU0NzI0MDg1Nzg0MDk5MTAyMDIwMjYzNjcxOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6ImNvdmVyIn19fQ==`,
+      title:`Beaches, Pristine, Remote`
     },
     {
-        name:`Andaman Islands`,
-        image:`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe3MGkTiEbfqoAY6hlYA6B3uQbanZLEsMJbbtQ4YPS_4tWUiJhVQ5VSFs&s`,
-        title:`Beaches, Marine Life, Diving`,
+      name:`Andaman Islands`,
+      image:`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe3MGkTiEbfqoAY6hlYA6B3uQbanZLEsMJbbtQ4YPS_4tWUiJhVQ5VSFs&s`,
+      title:`Beaches, Marine Life, Diving`,
     },
     {
-        name:`Greate Nichobar`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NTcyNzM3NDE0MzM3Nzg1MjQzOTg4MDM3MTA5NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6ImNvdmVyIn19fQ==`,
-        title:`Beaches, Pristine, Nature`
+      name:`Greate Nichobar`,
+      image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NTcyNzM3NDE0MzM3Nzg1MjQzOTg4MDM3MTA5NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6ImNvdmVyIn19fQ==`,
+      title:`Beaches, Pristine, Nature`
     },
     {
-        name:`Diglipur`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NzY0OTE0NjM0NTAwMjc5NDI2NTc0NzA3MDMxMi5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo0MDAsImhlaWdodCI6NDAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
-        title:`Beaches, Nature, Trekking`
+      name:`Diglipur`,
+      image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NzY0OTE0NjM0NTAwMjc5NDI2NTc0NzA3MDMxMi5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo0MDAsImhlaWdodCI6NDAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
+      title:`Beaches, Nature, Trekking`
     },
     {
-        name:`Rangat`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE1ODY1MzA5NTM0NTQ1ODIyMTQzNTU0Njg3NTAwMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6ImNvdmVyIn19fQ==`,
-        title:`Beaches, Islands, Nature`
+      name:`Rangat`,
+      image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE1ODY1MzA5NTM0NTQ1ODIyMTQzNTU0Njg3NTAwMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6ImNvdmVyIn19fQ==`,
+      title:`Beaches, Islands, Nature`
     }
 ]

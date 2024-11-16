@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Form from '../../components/HeaderSection/Form'
 
-function JandKHomePage() {
+function UttarakhandHomePage() {
 
   const [isFormOpen, setIsFormOpen] = useState(false);
 
@@ -17,7 +17,7 @@ function JandKHomePage() {
     <header className="relative h-[60vh] xs:h-[60vh] sm:h-[70vh] md:h-[100vh] 3xl:h-[60vh] overflow-hidden">
       {/* Background Image */}
       <img
-        src="https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvcGFnZS8xNjc0NjM1MDYxMDA4NTA0MzkwNzE2NTUyNzM0MzguanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoyMjQwLCJoZWlnaHQiOjEwNDAsImZpdCI6ImNvdmVyIn19fQ=="
+        src="https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvc3RhdGVzLzE2NzU1MzE1NDc1NDU1NzMyMzQ1NTgxMDU0Njg3NS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjIyNDAsImhlaWdodCI6MTA0MCwiZml0IjoiY292ZXIifX19"
         alt="Background"
         className="absolute inset-0 w-[100%] h-5/6 xs:w-full object-cover"
       />
@@ -29,9 +29,9 @@ function JandKHomePage() {
       <div className="relative flex items-center justify-between px-10 h-full">
         {/* Left Side Text Content */}
         <div className="text-white md:space-y-6 absolute top-40 md:top-16 xs:top-28 xs:left-20 sm:left-28 md:left-24 left-32 text-center md:text-left">
-          <h1 className="text-xl mb-5 xs:mb-2 font-bold sm:text-2xl md:text-5xl md:font-extrabold leading-tight">Jammu & Kashmir Trip Planner</h1>
+          <h1 className="text-xl mb-5 xs:mb-2 font-bold sm:text-2xl md:text-5xl md:font-extrabold leading-tight">Uttarakhand Trip Planner</h1>
           <p className="text-xl mb-5 xs:mb-2 sm:text-2xl xs:text-base">Bid farewell to generic holiday packages. <br /> Get Your AI-Personalised Itineraries</p>
-          <button onClick={() => handleFormOpen(true)} className="bg-yellow-300 hover:bg-black text-black hover:text-white transition-all border border-black font-bold py-3 px-6 rounded-md mt-4 xs:py-1">
+          <button onClick={() => handleFormOpen(true)}  className="bg-yellow-300 hover:bg-black text-black hover:text-white transition-all border border-black font-bold py-3 px-6 rounded-md mt-4 xs:py-1">
             Plan Itinerary For Free!
           </button>
           {isFormOpen && <Form onClose={handleFormClose} />}
@@ -43,7 +43,7 @@ function JandKHomePage() {
           
           <label className="block mb-2 text-lg font-bold">What do you want to explore?</label>
           <input type="text" placeholder="Delhi, IN" className="w-full mb-1 p-3 border rounded-md focus:outline-none" />
-          <input type="text" placeholder="Jammu & Kashmir" className="w-full mb-4 p-3 border rounded-md focus:outline-none" />
+          <input type="text" placeholder="Kerala" className="w-full mb-4 p-3 border rounded-md focus:outline-none" />
           
           <label className="block mb-3 text-lg font-bold">When are you planning to travel?</label>
           <div className='text-md font-bold flex items-center justify-between mr-32 mb-1'>
@@ -84,4 +84,4 @@ function JandKHomePage() {
   );
 }
 
-export default JandKHomePage;
+export default UttarakhandHomePage;

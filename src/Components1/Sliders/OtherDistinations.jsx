@@ -40,14 +40,14 @@ function SliderPage() {
     nextArrow: <NextArrow hidden={hideNext} />,
     responsive: [
       {
-        breakpoint: 1024, // Medium screens (e.g., tablets)
+        breakpoint: 1024,
         settings: {
           slidesToShow: 4,
           slidesToScroll: 4,
         },
       },
       {
-        breakpoint: 768, // Small screens (e.g., mobile)
+        breakpoint: 768,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
@@ -69,7 +69,6 @@ function SliderPage() {
                   backgroundImage: `url(${d.image})`
                 }}
               >
-                 {/* <div className=" absolute h-64 inset-0 bg-black opacity-20"></div> */}
                  <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black to-transparent opacity-100"></div>
 
                 {/* content */}

@@ -40,14 +40,14 @@ function SliderKerala2() {
     nextArrow: <NextArrow hidden={hideNext} />,
     responsive: [
       {
-        breakpoint: 1024, // For tablets
+        breakpoint: 1024,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
         }
       },
       {
-        breakpoint: 768, // For mobile devices
+        breakpoint: 768,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,

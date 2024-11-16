@@ -22,7 +22,7 @@ const NextArrow = ({ onClick, hidden }) => (
   </div>
 );
 
-function SliderJK2() {
+function SliderAandN2() {
   const [hidePrev, setHidePrev] = useState(true);
   const [hideNext, setHideNext] = useState(false);
 
@@ -40,14 +40,14 @@ function SliderJK2() {
     nextArrow: <NextArrow hidden={hideNext} />,
     responsive: [
       {
-        breakpoint: 1024, // For tablets
+        breakpoint: 1024,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
         }
       },
       {
-        breakpoint: 768, // For mobile devices
+        breakpoint: 768,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -86,48 +86,49 @@ function SliderJK2() {
   );
 }
 
-export default SliderJK2;
+export default SliderAandN2;
 
 
 const data = [
     {
-        name:`Nikita Romantic Getaway to Jammu & Kashmir`,
-        location:`Gulmarg • Sonamarg • Srinagar`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NTQwMDM1MDgwMDM4NjAyMzUyMTQyMzMzOTg0NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMDAsImhlaWdodCI6NTAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
-        title:`Curated by Nikita Awchar`,
-        price:`₹97,832/- for 2 people`
+        name:`Nizzar's Getaway with Friends to Andaman & Nicobar`,
+        location:`Havelock • Port Blair`,
+        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NTcwMjA2NjQ5MjU3NTI2Mzk3NzA1MDc4MTI1MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMDAsImhlaWdodCI6NTAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
+        title:`Curated by Nizzar`,
+        price:`₹7,47,272/- for 30 people`
     },
     {
-        name:`Winter Wonderland Kashmir`,
-        location:`Gulmarg • Srinagar • Pahalgam • New Delhi`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvaXRpbmVyYXJ5L3phbnNrYXIuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTAwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn19fQ==`,
-        title:`Handcraft by us`,
+        name:`Ali's Family Excursion in Andaman Islands`,
+        location:`Andaman Islands`,
+        image:`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_C7oAWjYjTgy2XVjMlGzh0twquwuoUme_Pg&s`,
+        title:`Handcraft by Ali Sajid`,
     },
     {
-        name:`Kashmir Ladakh Escapade`,
-        location:`Kargil • Leh, Ladakh • Srinagar • Pangong Tso • New Delhi`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvaXRpbmVyYXJ5L3NhbmdhbS1wb2ludC1sZWgtbGFkYWtoLTExMTh4NTMwLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTAwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn19fQ==`,
-        title:`Curated by Amrendra`,
-        price:`₹1,14,169/- for 4 people`
+        name:`Badrinath's Getaway to Andaman & Nichobar`,
+        location:`Neil Island • Havelock • Port Blair`,
+        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NTcwMjA2NjUyNTcxOTc2MTg0ODQ0OTcwNzAzMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMDAsImhlaWdodCI6NTAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
+        title:`Curated by Badrinath S`,
+        price:`₹29,319/- for 2 people`
     },
     {
-        name:`NY in Winter wonderland of Kashmir`,
-        location:`Gulmarg • Srinagar • Pahalgam`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvaXRpbmVyYXJ5L3phbnNrYXIuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTAwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn19fQ==`,
-        title:`Curated by Physics wallah`,
-        price:`₹10,828/- per person`
+        name:`Nishit's Family Excursion in Andaman & Nichobar`,
+        location:`Neil Island • Port Blair`,
+        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NTcwMjA2NjUxMTgzNzYyNTUwMzU0MDAzOTA2Mi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMDAsImhlaWdodCI6NTAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
+        title:`Curated by Nishit`,
+        price:`₹36,623/- for 3 people`
     },
     {
-        name:`Nikhil's Gateway with Friends to Vaishno Devi`,
-        location:`Vaishno Devi`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NzY0OTI5MTEzMTc2MDE2ODA3NTU2MTUyMzQzOC5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo0MDAsImhlaWdodCI6NDAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
-        title:`Curated by Nikhil Parmar`,
+        name:`Nishit's Family Excursion in Andaman & Nichobar`,
+        location:`Neil Island • Port Blair`,
+        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NTcwMjA2NjQ5MjU3NTI2Mzk3NzA1MDc4MTI1MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMDAsImhlaWdodCI6NTAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
+        title:`Curated by Nishit`,
+        price:`₹41,096/- for 3 people`
     },
     {
-        name:`Abhishek's Family Excursion in Jammu & Kashmir`,
-        location:`Sonamarg • Srinagar • Pahalgam`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NTY0Mjk0OTE1MTI1NzAzODExNjQ1NTA3ODEyNS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMDAsImhlaWdodCI6NTAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
-        title:`Curated by Abhishek`,
-        price:`₹2,12,726/- for 9 people`
+        name:`Shrikant's Family Excursion in Andaman & Nichobar`,
+        location:`Neil Island • Port Blair`,
+        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NTcwMjA2NjUzNDA5MDQ5NTEwOTU1ODEwNTQ2OS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMDAsImhlaWdodCI6NTAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
+        title:`Curated by Shrikant Tiwari`,
+        price:`₹25,616/- for 2 people`
     },
 ]

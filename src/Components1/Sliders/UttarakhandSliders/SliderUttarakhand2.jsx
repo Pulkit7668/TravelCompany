@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
+
 const PrevArrow = ({ onClick, hidden }) => (
   <div
     className={`absolute bg-[#01202B] p-3 rounded-full left-[-30px] top-1/2 transform -translate-y-1/2 z-10 cursor-pointer ${hidden ? 'hidden' : ''}`}
@@ -22,7 +23,7 @@ const NextArrow = ({ onClick, hidden }) => (
   </div>
 );
 
-function SliderAandN2() {
+function SliderUttarakhand2() {
   const [hidePrev, setHidePrev] = useState(true);
   const [hideNext, setHideNext] = useState(false);
 
@@ -40,14 +41,14 @@ function SliderAandN2() {
     nextArrow: <NextArrow hidden={hideNext} />,
     responsive: [
       {
-        breakpoint: 1024, // For tablets
+        breakpoint: 1024,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
         }
       },
       {
-        breakpoint: 768, // For mobile devices
+        breakpoint: 768,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -86,49 +87,50 @@ function SliderAandN2() {
   );
 }
 
-export default SliderAandN2;
+export default SliderUttarakhand2;
 
 
 const data = [
     {
-        name:`Nizzar's Getaway with Friends to Andaman & Nicobar`,
-        location:`Havelock • Port Blair`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NTcwMjA2NjQ5MjU3NTI2Mzk3NzA1MDc4MTI1MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMDAsImhlaWdodCI6NTAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
-        title:`Curated by Nizzar`,
-        price:`₹7,47,272/- for 30 people`
+        name:`Akki's Family Excursion in Mussoorie`,
+        location:`Mussoorie`,
+        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2MTg0Njg2Njk3OTAxMzkxOTgzMDMyMjI2NTYyNS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMDAsImhlaWdodCI6NTAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
+        title:`Curated by Akki rana`,
+        price:`₹65,092/- for 4 people`
     },
     {
-        name:`Ali's Family Excursion in Andaman Islands`,
-        location:`Andaman Islands`,
-        image:`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_C7oAWjYjTgy2XVjMlGzh0twquwuoUme_Pg&s`,
-        title:`Handcraft by Ali Sajid`,
+        name:`Ayush's Gateway with Friends to Uttarakhand`,
+        location:`Dehradun • Haridwar • Mussoorie • Rishikesh`,
+        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2MTE4NzA5MTgwNDI0OTUwMTIyODMzMjUxOTUzMS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMDAsImhlaWdodCI6NTAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
+        title:`Curated by Ayush`,
+        price:`₹27,540/- for 4 people`
     },
     {
-        name:`Badrinath's Getaway to Andaman & Nichobar`,
-        location:`Neil Island • Havelock • Port Blair`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NTcwMjA2NjUyNTcxOTc2MTg0ODQ0OTcwNzAzMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMDAsImhlaWdodCI6NTAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
-        title:`Curated by Badrinath S`,
-        price:`₹29,319/- for 2 people`
+        name:`Geetansh's Gateway with Friends to Uttarakhand`,
+        location:`Dehradun • Jim Corbett National Park • Rishikesh`,
+        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2MTE4NzA5MTk2MzMyODkwOTg3Mzk2MjQwMjM0NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMDAsImhlaWdodCI6NTAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
+        title:`Curated by Geetansh Kumar`,
+        price:`₹46,159/- for 2 people`
     },
     {
-        name:`Nishit's Family Excursion in Andaman & Nichobar`,
-        location:`Neil Island • Port Blair`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NTcwMjA2NjUxMTgzNzYyNTUwMzU0MDAzOTA2Mi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMDAsImhlaWdodCI6NTAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
-        title:`Curated by Nishit`,
-        price:`₹36,623/- for 3 people`
+        name:`Suryakant's Gateway with Friends to North India`,
+        location:`Vrindavan • Haridwar • Rishikesh • Jaipur • Kurukshetra`,
+        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NzY0OTI0NzI0MTc3ODM3MzcxODI2MTcxODc1MC5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjUwMCwiZml0IjoiY292ZXIifX19`,
+        title:`Curated by Suryakant Kamat`,
+        price:`₹2,73,613/- for 10 people`
     },
     {
-        name:`Nishit's Family Excursion in Andaman & Nichobar`,
-        location:`Neil Island • Port Blair`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NTcwMjA2NjQ5MjU3NTI2Mzk3NzA1MDc4MTI1MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMDAsImhlaWdodCI6NTAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
-        title:`Curated by Nishit`,
-        price:`₹41,096/- for 3 people`
+        name:`Vardaan's Family Excursion in Nainital`,
+        location:`Nainital`,
+        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2MTY1ODczNzAxNzA1OTU4ODQzMjMxMjAxMTcxOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMDAsImhlaWdodCI6NTAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
+        title:`Curated by Vardaan Chugh`,
+        price:`₹39,879/- for 4 people`
     },
     {
-        name:`Shrikant's Family Excursion in Andaman & Nichobar`,
-        location:`Neil Island • Port Blair`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NTcwMjA2NjUzNDA5MDQ5NTEwOTU1ODEwNTQ2OS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMDAsImhlaWdodCI6NTAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
-        title:`Curated by Shrikant Tiwari`,
-        price:`₹25,616/- for 2 people`
+        name:`Vema's Gateway with Friends to Nainital`,
+        location:`Nainital`,
+        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2MTY1ODczNzAxNzA1OTU4ODQzMjMxMjAxMTcxOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMDAsImhlaWdodCI6NTAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
+        title:`Curated by Vema Pooja Thanusri`,
+        price:`₹54,416/- for 5 people`
     },
 ]

@@ -4,7 +4,8 @@ function AboutLadakh() {
   return (
     <div className='mx-6 md:mx-28 text-center'>
       <h1 className='text-3xl md:text-4xl font-bold mb-10 md:mb-10'>A little about Ladakh</h1>
-      <p className='text-gray-500 text-xs md:text-md font-normal sm:font-medium mb-5'>Ladakh, a picturesque region located in the northernmost part of India, is a dream destination for<br /> 
+      <p className='text-gray-500 text-xs md:text-md font-normal sm:font-medium mb-5'>
+      Ladakh, a picturesque region located in the northernmost part of India, is a dream destination for <br className='xs:hidden' /> 
       many. Often referred to as the ‘Land of High Passes’, it is a place of stark beauty and serenity, <br className='xs:hidden' /> 
       boasting a rich culture and history. With its snow-capped mountains, high plateaus, and unspoiled <br className='xs:hidden' /> 
       landscapes, Ladakh is a paradise for travel enthusiasts. The best way to explore Ladakh is to trek <br className='xs:hidden' /> 
