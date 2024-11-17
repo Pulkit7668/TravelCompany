@@ -22,7 +22,7 @@ const NextArrow = ({ onClick, hidden }) => (
   </div>
 );
 
-function SliderKerala2() {
+function SliderArunachalPradesh2() {
   const [hidePrev, setHidePrev] = useState(true);
   const [hideNext, setHideNext] = useState(false);
 
@@ -86,47 +86,50 @@ function SliderKerala2() {
   );
 }
 
-export default SliderKerala2;
+export default SliderArunachalPradesh2;
 
 
 const data = [
     {
-        name:`Volunteering in The Heritage City- Mysore`,
-        location:`Shravanabelagola • Kochi • Mandya • Ooty • Coorg`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvaXRpbmVyYXJ5LzE1NTk4OTE2NDFfc2h1dHRlcnN0b2NrXzE1Mjk0MTgzMi5qcGcuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjUwMCwiZml0IjoiY292ZXIifX19`,
-        title:`Curated by Muskan`,
-        price:`₹62,519/- for 2 people`
+        name:`Sumit's Romantic Getaway to Arunachal Pradesh`,
+        location:`Itanagar • Tawang`,
+        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NzY0OTE2MjU1Nzk5MTA5OTM1NzYwNDk4MDQ2OS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjUwMCwiZml0IjoiY292ZXIifX19`,
+        title:`Curated by Sumit hari`,
+        price:`₹24,361/- for 2 people`
     },
     {
-        name:`Ayush's Getaway with Friends to Kerala`,
-        location:`Trivandrum • Thekkady • Munnar • Kochi`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2ODU1MzA4MTAwNTY1MzMwOTgyMjA4MjUxOTUzMS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjUwMCwiZml0IjoiY292ZXIifX19`,
-        title:`Curated by Ayush Mittal`,
-        price:`₹1,08,828/- for 3 people`
+        name:`Rohan's Solo Backpacking in Arunachal Pradesh`,
+        location:`Itanagar • Ziro • Tawang`,
+        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NzY0OTE2MjU2NzMyMDk2NjcyMDU4MTA1NDY4OC5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjUwMCwiZml0IjoiY292ZXIifX19`,
+        title:`Handcraft by Rohan Pandit`,
+        price:`₹30,200/- per person`
     },
     {
-        name:`Kerala - Itinerary`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NjIzNzcwNjcyNTUwOTMzMzYxMDUzNDY2Nzk2OS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjUwMCwiZml0IjoiY292ZXIifX19`,
-        title:`Curated by Visakh`,
-        price:`₹4,943/- for 4 people`
+        name:`Rajesh's Family Excursion in Northeast India`,
+        location:`Guwahati • Gangtok • Jaintia Hills • Itanagar`,
+        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE1OTM2MjA2MDQwMTg1NDY1ODEyNjgzMTA1NDY4OC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMDAsImhlaWdodCI6NTAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
+        title:`Curated by Rajesh`,
+        price:`₹53,144/- for 3 people`
     },
     {
-        name:`Kerala - Itinerary`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NjIzNzcwNjcyNTUwOTMzMzYxMDUzNDY2Nzk2OS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjUwMCwiZml0IjoiY292ZXIifX19`,
-        title:`Curated by Visakh`,
-        price:`₹4,943/- for 4 people`
+        name:`G's Family Excursion in Anini`,
+        location:`Anini`,
+        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NzYzNjAwOTYxNjY4Mjg4NzA3NzMzMTU0Mjk2OS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjUwMCwiZml0IjoiY292ZXIifX19`,
+        title:`Curated by G Manju`,
+        price:`₹19,632/- for 4 people`
     },
     {
-        name:`Priyanshu's Getaway With Friends To Trivandrum`,
-        location:`Trivandrum`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2ODU1MzA4MTAwNTY1MzMwOTgyMjA4MjUxOTUzMS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjUwMCwiZml0IjoiY292ZXIifX19`,
-        title:`Curated by Priyanshu Sharma`,
+        name:`Kouyalee's Getaway with Friends to Arunachal Pradesh`,
+        location:`Itanagar • Tawang`,
+        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NzY0OTE2MjU1Nzk5MTA5OTM1NzYwNDk4MDQ2OS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjUwMCwiZml0IjoiY292ZXIifX19`,
+        title:`Curated by Kouyalee's Debbarma`,
+        price:`₹2,21,909/- for 4 people`
     },
     {
-        name:`Mahesh's Family Trip To Phuket`,
-        location:`Phuket`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2ODU1MzA1NDczNDU1OTM2OTA4NzIxOTIzODI4MS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjUwMCwiZml0IjoiY292ZXIifX19`,
-        title:`Curated by Mahesh Kumar ps`,
-        price:`₹3,94,076/- for 5 people`
+        name:`Isha's Getaway with Friends to Arunachal Pradesh`,
+        location:`Itanagar • Ziro • Tawang`,
+        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NzY1MzU2OTA2NjY5ODAyNjY1NzEwNDQ5MjE4OC5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjUwMCwiZml0IjoiY292ZXIifX19`,
+        title:`Curated by Isha`,
+        price:`₹55,412/- for 5 people`
     },
 ]

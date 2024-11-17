@@ -22,7 +22,7 @@ const NextArrow = ({ onClick, hidden }) => (
   </div>
 );
 
-function SliderKerala2() {
+function SliderGoa2() {
   const [hidePrev, setHidePrev] = useState(true);
   const [hideNext, setHideNext] = useState(false);
 
@@ -86,47 +86,50 @@ function SliderKerala2() {
   );
 }
 
-export default SliderKerala2;
+export default SliderGoa2;
 
 
 const data = [
     {
-        name:`Volunteering in The Heritage City- Mysore`,
-        location:`Shravanabelagola • Kochi • Mandya • Ooty • Coorg`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvaXRpbmVyYXJ5LzE1NTk4OTE2NDFfc2h1dHRlcnN0b2NrXzE1Mjk0MTgzMi5qcGcuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjUwMCwiZml0IjoiY292ZXIifX19`,
-        title:`Curated by Muskan`,
-        price:`₹62,519/- for 2 people`
+        name:`Teja's Getaway with Friends to North India`,
+        location:`Vrindavan • Varanasi • New Delhi`,
+        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NjI1NDMxMTE5MjA2OTE3Mjg1OTE5MTg5NDUzMS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjUwMCwiZml0IjoiY292ZXIifX19`,
+        title:`Curated by Teja`,
+        price:`₹87,207/- for 25 people`
     },
     {
-        name:`Ayush's Getaway with Friends to Kerala`,
-        location:`Trivandrum • Thekkady • Munnar • Kochi`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2ODU1MzA4MTAwNTY1MzMwOTgyMjA4MjUxOTUzMS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjUwMCwiZml0IjoiY292ZXIifX19`,
-        title:`Curated by Ayush Mittal`,
-        price:`₹1,08,828/- for 3 people`
+        name:`Shaik's Getaway with Frineds to Agonda`,
+        location:`Agonda`,
+        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2MjMxNzIxNDY3NDc0NTA1OTAxMzM2NjY5OTIxOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMDAsImhlaWdodCI6NTAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
+        title:`Curated by Shaik imaad hassain`,
+        price:`₹7,822/- for 2 people`
     },
     {
-        name:`Kerala - Itinerary`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NjIzNzcwNjcyNTUwOTMzMzYxMDUzNDY2Nzk2OS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjUwMCwiZml0IjoiY292ZXIifX19`,
-        title:`Curated by Visakh`,
-        price:`₹4,943/- for 4 people`
+        name:`Teja's Getaway with Freinds to Uttar Pradesh`,
+        location:`Allahabad • Ayodhya • Varanasi`,
+        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NzYzNjEyODM5MTM2ODY3NTIzMTkzMzU5Mzc1MC5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjUwMCwiZml0IjoiY292ZXIifX19`,
+        title:`Curated by Teja`,
+        price:`₹2,80,356/- for 25 people`
     },
     {
-        name:`Kerala - Itinerary`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NjIzNzcwNjcyNTUwOTMzMzYxMDUzNDY2Nzk2OS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjUwMCwiZml0IjoiY292ZXIifX19`,
-        title:`Curated by Visakh`,
-        price:`₹4,943/- for 4 people`
+        name:`Teja's Getaway with Freinds to Uttar Pradesh`,
+        location:`Allahabad • Ayodhya • Varanasi`,
+        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NzYzNjAwNjQ1MzU4OTEwNTYwNjA3OTEwMTU2Mi5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjUwMCwiZml0IjoiY292ZXIifX19`,
+        title:`Curated by Teja`,
+        price:`₹2,38,773/- for 25 people`
     },
     {
-        name:`Priyanshu's Getaway With Friends To Trivandrum`,
-        location:`Trivandrum`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2ODU1MzA4MTAwNTY1MzMwOTgyMjA4MjUxOTUzMS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjUwMCwiZml0IjoiY292ZXIifX19`,
-        title:`Curated by Priyanshu Sharma`,
+        name:`Purvai's Family Excursion in Agonda`,
+        location:`Agonda`,
+        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2MjMxNzIxNDY3NDc0NTA1OTAxMzM2NjY5OTIxOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMDAsImhlaWdodCI6NTAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
+        title:`Curated by Purvai Naik`,
+        price:`₹17,880/- for 4 people`
     },
     {
-        name:`Mahesh's Family Trip To Phuket`,
-        location:`Phuket`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2ODU1MzA1NDczNDU1OTM2OTA4NzIxOTIzODI4MS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjUwMCwiZml0IjoiY292ZXIifX19`,
-        title:`Curated by Mahesh Kumar ps`,
-        price:`₹3,94,076/- for 5 people`
+        name:`Ajay's Getaway to Goa`,
+        location:`Calangute • Agonda`,
+        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2ODU1Mjk1MzIyMzMyNzUxNzUwOTQ2MDQ0OTIxOS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjUwMCwiZml0IjoiY292ZXIifX19`,
+        title:`Curated by Ajay Baldaniya`,
+        price:`₹27,786/- for 2 people`
     },
 ]

@@ -11,6 +11,9 @@ import SearchPage from './components/NavBar/SearchPage.jsx'
 import AndamanNicobar from './Pages/AndamanNicobar.jsx';
 import HimachalPradesh from './Pages/HimachalPradesh';
 import Uttarakhand from './Pages/Uttarakhand';
+import Sikkim from './Pages/Sikkim.jsx';
+import Goa from './Pages/Goa.jsx';
+import ArunachalPradesh from './Pages/ArunachalPradesh.jsx';
 
 
 createRoot(document.getElementById('root')).render(
@@ -31,6 +34,9 @@ createRoot(document.getElementById('root')).render(
         <Route path="/andaman&nicobar" element={<AndamanNicobar />} /> 
         <Route path="/himachalpradesh" element={<HimachalPradesh />} />
         <Route path="/uttarakhand" element={<Uttarakhand />} />
+        <Route path="/sikkim" element={<Sikkim />} />
+        <Route path="/goa" element={<Goa />} />
+        <Route path="/arunachalpradesh" element={<ArunachalPradesh />} />
         <Route path="/search" element={<SearchPage />} />
       </Routes>
     </Auth0Provider>

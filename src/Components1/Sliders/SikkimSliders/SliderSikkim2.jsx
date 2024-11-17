@@ -22,7 +22,7 @@ const NextArrow = ({ onClick, hidden }) => (
   </div>
 );
 
-function SliderKerala2() {
+function SliderSikkim2() {
   const [hidePrev, setHidePrev] = useState(true);
   const [hideNext, setHideNext] = useState(false);
 
@@ -86,47 +86,51 @@ function SliderKerala2() {
   );
 }
 
-export default SliderKerala2;
+export default SliderSikkim2;
 
 
 const data = [
     {
-        name:`Volunteering in The Heritage City- Mysore`,
-        location:`Shravanabelagola • Kochi • Mandya • Ooty • Coorg`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvaXRpbmVyYXJ5LzE1NTk4OTE2NDFfc2h1dHRlcnN0b2NrXzE1Mjk0MTgzMi5qcGcuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjUwMCwiZml0IjoiY292ZXIifX19`,
-        title:`Curated by Muskan`,
-        price:`₹62,519/- for 2 people`
+        name:`Kartik's Family Trip to Lachung`,
+        location:`Lachung`,
+        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2MDk3NDYwMjY5MTY2MzY5NDM4MTcxMzg2NzE4OC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMDAsImhlaWdodCI6NTAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
+        title:`Curated by Kartik Gupta`,
+        price:`₹32,989/- for 2 people`
     },
     {
-        name:`Ayush's Getaway with Friends to Kerala`,
-        location:`Trivandrum • Thekkady • Munnar • Kochi`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2ODU1MzA4MTAwNTY1MzMwOTgyMjA4MjUxOTUzMS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjUwMCwiZml0IjoiY292ZXIifX19`,
-        title:`Curated by Ayush Mittal`,
-        price:`₹1,08,828/- for 3 people`
+        name:`Kartik's Family Trip to Lachung`,
+        location:`Lachung`,
+        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2MDk3NDYwMjY5MTY2MzY5NDM4MTcxMzg2NzE4OC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMDAsImhlaWdodCI6NTAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
+        title:`Curated by Kartik Gupta`,
+        price:`₹39,041/- for 3 people`
+
     },
     {
-        name:`Kerala - Itinerary`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NjIzNzcwNjcyNTUwOTMzMzYxMDUzNDY2Nzk2OS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjUwMCwiZml0IjoiY292ZXIifX19`,
-        title:`Curated by Visakh`,
-        price:`₹4,943/- for 4 people`
+        name:`Abhilash's Romantic Getaway to Sikkim`,
+        location:`Gangtok • Pelling`,
+        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2MjQ3MTQ4MjA1NTIyMDE1MDk0NzU3MDgwMDc4MS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMDAsImhlaWdodCI6NTAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
+        title:`Curated by Abhilash`,
+        price:`₹34,455/- for 2 people`
     },
     {
-        name:`Kerala - Itinerary`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NjIzNzcwNjcyNTUwOTMzMzYxMDUzNDY2Nzk2OS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjUwMCwiZml0IjoiY292ZXIifX19`,
-        title:`Curated by Visakh`,
-        price:`₹4,943/- for 4 people`
+        name:`Divya's Getaway with Friends to Sikkim`,
+        location:`Gangtok • Pelling • Lachung`,
+        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2MDk3NDYwMjc1MDA5MTMxNDMxNTc5NTg5ODQzOC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMDAsImhlaWdodCI6NTAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
+        title:`Curated by Divya Roshan Mahto`,
+        price:`₹37,662/- for 2 people`
     },
     {
-        name:`Priyanshu's Getaway With Friends To Trivandrum`,
-        location:`Trivandrum`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2ODU1MzA4MTAwNTY1MzMwOTgyMjA4MjUxOTUzMS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjUwMCwiZml0IjoiY292ZXIifX19`,
-        title:`Curated by Priyanshu Sharma`,
+        name:`Prasanta's Family Excursion in Sikkim`,
+        location:`Lachung • Siliguri • Pilling • Silchar • Gangtok`,
+        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2MjQ3MTUwMjc5NzczMDA4ODIzMzk0Nzc1MzkwNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMDAsImhlaWdodCI6NTAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
+        title:`Curated by Prasanta Singha`,
+        price:`₹39,789/- for 3 people`
     },
     {
-        name:`Mahesh's Family Trip To Phuket`,
-        location:`Phuket`,
-        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2ODU1MzA1NDczNDU1OTM2OTA4NzIxOTIzODI4MS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjUwMCwiZml0IjoiY292ZXIifX19`,
-        title:`Curated by Mahesh Kumar ps`,
-        price:`₹3,94,076/- for 5 people`
+        name:`Apurv's Solo Backpacking in Sikkim`,
+        location:`Gangtok • Pelling • Lachung`,
+        image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2MjQ3MTQ4MjA1NTIyMDE1MDk0NzU3MDgwMDc4MS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMDAsImhlaWdodCI6NTAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
+        title:`Curated by Apurv`,
+        price:`₹37,073/- per person`
     },
 ]

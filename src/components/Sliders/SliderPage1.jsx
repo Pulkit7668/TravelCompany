@@ -160,8 +160,8 @@ const data = [
       price:`Pearl od the  Orient`
     },
     {
-      route:`/arunachal`,
-      name:`Arunachal`,
+      route:`/arunachalpradesh`,
+      name:`Arunachal Pradesh`,
       image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvc3RhdGVzLzE2NzUzNTUwNDQ0ODI0MjI1OTAyNTU3MzczMDQ2OS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn19fQ==`,
       price:`From ₹1,404/- per day`
     },

@@ -99,21 +99,21 @@ const data = [
         price:`₹65,092/- for 4 people`
     },
     {
-        name:`Ayush's Gateway with Friends to Uttarakhand`,
+        name:`Ayush's Getaway with Friends to Uttarakhand`,
         location:`Dehradun • Haridwar • Mussoorie • Rishikesh`,
         image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2MTE4NzA5MTgwNDI0OTUwMTIyODMzMjUxOTUzMS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMDAsImhlaWdodCI6NTAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
         title:`Curated by Ayush`,
         price:`₹27,540/- for 4 people`
     },
     {
-        name:`Geetansh's Gateway with Friends to Uttarakhand`,
+        name:`Geetansh's Getaway with Friends to Uttarakhand`,
         location:`Dehradun • Jim Corbett National Park • Rishikesh`,
         image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2MTE4NzA5MTk2MzMyODkwOTg3Mzk2MjQwMjM0NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMDAsImhlaWdodCI6NTAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
         title:`Curated by Geetansh Kumar`,
         price:`₹46,159/- for 2 people`
     },
     {
-        name:`Suryakant's Gateway with Friends to North India`,
+        name:`Suryakant's Getaway with Friends to North India`,
         location:`Vrindavan • Haridwar • Rishikesh • Jaipur • Kurukshetra`,
         image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NzY0OTI0NzI0MTc3ODM3MzcxODI2MTcxODc1MC5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjUwMCwiZml0IjoiY292ZXIifX19`,
         title:`Curated by Suryakant Kamat`,
@@ -127,7 +127,7 @@ const data = [
         price:`₹39,879/- for 4 people`
     },
     {
-        name:`Vema's Gateway with Friends to Nainital`,
+        name:`Vema's Getaway with Friends to Nainital`,
         location:`Nainital`,
         image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2MTY1ODczNzAxNzA1OTU4ODQzMjMxMjAxMTcxOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMDAsImhlaWdodCI6NTAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
         title:`Curated by Vema Pooja Thanusri`,
