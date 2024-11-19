@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import { useNavigate } from 'react-router-dom';
 
 const PrevArrow = ({ onClick, hidden }) => (
   <div
@@ -25,6 +26,8 @@ const NextArrow = ({ onClick, hidden }) => (
 function SliderJK() {
   const [hidePrev, setHidePrev] = useState(true);
   const [hideNext, setHideNext] = useState(false);
+
+  const navigate = useNavigate();
 
   const settings = {
     dots: false,
@@ -63,6 +66,10 @@ function SliderJK() {
     ],
   };
 
+  const handleImageClick = (route) => {
+    navigate(route);
+  };
+
   return (
     <div className='w-5/6 h-[500px] m-auto'>
       <h1 className='text-2xl text-center xs:text-lg md:text-left md:text-4xl font-bold ml-2'>Top locations across Jammu & Kashmir</h1>
@@ -70,7 +77,7 @@ function SliderJK() {
         <Slider {...settings}>
           {data.map((d, index) => (
             <div key={index} className='h-full text-black rounded-xl overflow-hidden relative'>
-              <div
+              <div onClick={() => handleImageClick(d.route)}
                 className='w-full h-52 aspect-square bg-cover bg-center rounded-xl'
                 style={{
                   backgroundImage: `url(${d.image})`
@@ -94,70 +101,83 @@ export default SliderJK;
 
 const data = [
     {
+      route:`/jandk/srinagar`,
         name:`Srinagar`,
         image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE1ODUzMDEwMTU0MzQ3NDg4ODgwMTU3NDcwNzAzMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDB9fX0=`,
         title:`Kashmir Valley, Houseboats, Dal Lake`,
         price:`From ₹9,543/- per day`
     },
     {
+      route:`/jandk/sonamarg`,
         name:`Sonamarg`,
         image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NTQwMDM1MDgwMDM4NjAyMzUyMTQyMzMzOTg0NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDB9fX0=`,
         title:`Mountains, Trekking, Glaciers`,
         price:`From ₹18,131/- per day`
     },
     {
+      route:`/jandk/gulmarg`,
         name:`Gulmarg`,
         image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NTc1MzIyNzY4NzExMzgwOTU4NTU3MTI4OTA2Mi5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo0MDAsImhlaWdodCI6NDAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
         title:`Skiing, Gondela, Mountains`,
         price:`From ₹11,455/- per day`
     },
     {
+      route:`/jandk/pahalgam`,
         name:`Pahalgam`,
         image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NTY0Mjk0OTEyNzg0MjI4MzI0ODkwMTM2NzE4OC53ZWJwIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo0MDAsImhlaWdodCI6NDAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
         title:`Adventure, Treks, Mountains`,
         price:`From ₹12,000/- per day`
     },
     {
+      route:`/jandk/sanasar`,
         name:`Sanasar`,
         image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NzY0OTI5MTEzMTc2MDE2ODA3NTU2MTUyMzQzOC5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo0MDAsImhlaWdodCI6NDAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
         title:`Mountains, Nature, Treks`,
     },
     {
+      route:`/jandk/pulwama`,
         name:`Pulwama`,
         image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NzY0OTI4MDM0MzUyNTk4MTkwMzA3NjE3MTg3NS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo0MDAsImhlaWdodCI6NDAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
         title:`Kashmir Valley, Apple Orchards`
     },
     {
+      route:`/jandk/anantnag`,
         name:`Anantnag`,
         image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NzYzNjAwOTM1NDU5NTc1NjUzMDc2MTcxODc1MC5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo0MDAsImhlaWdodCI6NDAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
         title:`Kashmir Valley, Mountains, Treks`
     },
     {
+      route:`/jandk/vaishnodevi`,
         name:`Vaishno Devi`,
         image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NzY1MzU2MDYyMjg1MzQ0NjAwNjc3NDkwMjM0NC5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo0MDAsImhlaWdodCI6NDAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
         title:`Pilgrimage, Temple, Hiking`
     },
     {
+      route:`/jandk/dachigamnationalpark`,
         name:`Dachigam National Park`,
         image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NzY0OTEzOTQwNTkxMzg3NzQ4NzE4MjYxNzE4OC5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo0MDAsImhlaWdodCI6NDAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
         title:`Wildlife, Kashmir Valley`
     },
     {
+      route:`/jandk/patnitop`,
         name:`Patnitop`,
         image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NTcwMzE0Mzc2OTQ3MDAwMDI2NzAyODgwODU5NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6ImNvdmVyIn19fQ==`,
         title:`Mountains, Treks, Snow`
     },
     {
+      route:`/jandk/bhaderuah`,
         name:`Bhaderuah`,
         image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NzY0OTEyODY0Mjc5NjY4MzMxMTQ2MjQwMjM0NC5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo0MDAsImhlaWdodCI6NDAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
         title:`Mountains, Trekking, Nature`
     },
     {
+      route:`/jandk/aruvalley`,
         name:`Aru Valley`,
         image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NzYzNjA2OTE3OTE2MzY0NjY5Nzk5ODA0Njg3NS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo0MDAsImhlaWdodCI6NDAwLCJmaXQiOiJjb3ZlciJ9fX0=`,
         title:`Adventure, Treks, Mountains`
     },
     {
+      route:`/jandk/jammu`,
         name:`Jammu`,
         image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NTcwOTgzNzA0MDYyOTkzNTI2NDU4NzQwMjM0NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6ImNvdmVyIn19fQ==`,
         title:`Historical Temples, Mountains`,

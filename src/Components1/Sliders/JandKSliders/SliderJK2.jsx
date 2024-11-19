@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import { useNavigate } from 'react-router-dom';
 
 const PrevArrow = ({ onClick, hidden }) => (
   <div
@@ -25,6 +26,8 @@ const NextArrow = ({ onClick, hidden }) => (
 function SliderJK2() {
   const [hidePrev, setHidePrev] = useState(true);
   const [hideNext, setHideNext] = useState(false);
+
+  const navigate = useNavigate();
 
   const settings = {
     dots: false,
@@ -56,13 +59,17 @@ function SliderJK2() {
     ]
   };
 
+  const handleImageClick = (route) => {
+    navigate(route);
+  };
+
   return (
     <div className='w-5/6 h-[600px] m-auto'>
       <h1 className='text-4xl font-bold ml-2'>Trips by our users</h1>
       <div className='mt-8'>
         <Slider {...settings}>
           {data.map((d, index) => (
-            <div key={index} className='bg-white h-full text-black rounded-xl overflow-hidden shadow-lg relative flex flex-col items-center p-4'>
+            <div onClick={() => handleImageClick(d.route)} key={index} className='bg-white h-full text-black rounded-xl overflow-hidden shadow-lg relative flex flex-col items-center p-4'>
               <div
                 className='w-full h-52 bg-cover bg-center rounded-xl'
                 style={{
@@ -91,6 +98,7 @@ export default SliderJK2;
 
 const data = [
     {
+      route:`/jandk/nikita-romantic-getway-to-jammu-kashmir`,
         name:`Nikita Romantic Getaway to Jammu & Kashmir`,
         location:`Gulmarg • Sonamarg • Srinagar`,
         image:`https://d31aoa0ehgvjdi.cloudfront.net//eyJidWNrZXQiOiJ0aGV0YXJ6YW53YXktd2ViIiwia2V5IjoibWVkaWEvY2l0aWVzLzE2NTQwMDM1MDgwMDM4NjAyMzUyMTQyMzMzOTg0NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMDAsImhlaWdodCI6NTAwLCJmaXQiOiJjb3ZlciJ9fX0=`,

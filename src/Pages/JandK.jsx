@@ -14,6 +14,7 @@ import WhatTheySay from "../Components1/WhatTheySay/WhatTheySay"
 import TalkToUs from "../Components1/TalkToUs/TalkToUs"
 
 function JandK() {
+
   
   useEffect(() => {
     window.scrollTo(0, 0);
