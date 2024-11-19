@@ -56,17 +56,17 @@ function Srinagar() {
         {/* Button */}
         <div className="px-6 py-4 flex items-center justify-between border-t">
           <div className="flex space-x-10">
-            <button className="text-gray-600 text-lg font-medium border-b-2 border-transparent hover:border-yellow-400 hover:text-yellow-400 transition-all duration-300 ease-in-out">
+            <button className="text-gray-600 text-lg font-medium border-b-2 border-transparent hover:border-yellow-400 hover:text-yellow-400 hover:bg-[#262626] rounded-md px-4 py-1 transition-all duration-300 ease-in-out">
               Brief
             </button>
 
-            <button className="text-gray-600 text-lg font-medium hover:text-yellow-400 hover:border-b-2 hover:border-yellow-400 transition-all duration-300 ease-in-out">
+            <button className="text-gray-600 text-lg font-medium hover:text-yellow-400 hover:border-b-2 hover:border-yellow-400 hover:bg-[#262626] rounded-md px-4 py-1 transition-all duration-300 ease-in-out">
               Itinerary
             </button>
-            <button className="text-gray-600 text-lg font-medium hover:text-yellow-400 hover:border-b-2 hover:border-yellow-400 transition-all duration-300 ease-in-out">
+            <button className="text-gray-600 text-lg font-medium hover:text-yellow-400 hover:border-b-2 hover:border-yellow-400 hover:bg-[#262626] rounded-md px-4 py-1 transition-all duration-300 ease-in-out">
               Stays
             </button>
-            <button className="text-gray-600 text-lg font-medium hover:text-yellow-400 hover:border-b-2 hover:border-yellow-400 transition-all duration-300 ease-in-out">
+            <button className="text-gray-600 text-lg font-medium hover:text-yellow-400 hover:border-b-2 hover:border-yellow-400 hover:bg-[#262626] rounded-md px-4 py-1 transition-all duration-300 ease-in-out">
               Activities
             </button>
           </div>
