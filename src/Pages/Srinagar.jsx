@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Itinerary from "../Components1/Itinerary/ItineraryPage";
 import Stays from '../Components1/Itinerary/Stays'
 import Activities from "../Components1/Itinerary/Activities";
+import Navbar from '../components/NavBar/NavBar'
 
 function Srinagar() {
   useEffect(() => {
@@ -18,7 +19,9 @@ function Srinagar() {
   ];
 
   return (
-    <div className="p-8 bg-gray-100 min-h-screen">
+    <>
+    <Navbar />
+    <div className="p-8 min-h-screen">
       <div className="w-[100%] mx-auto rounded-lg">
         {/* Header Section */}
         <div className="p-6">
@@ -103,6 +106,7 @@ function Srinagar() {
         <Activities />
       </div>
     </div>
+    </>
   );
 }
 
