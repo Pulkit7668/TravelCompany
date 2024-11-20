@@ -66,7 +66,7 @@ function Navbar() {
       </div>
 
       {/* Buttons */}
-      <div className="flex items-center space-x-4 mr-10">
+      <div className="flex items-center space-x-4 mr-0">
         <button onClick={() => handleFormOpen(true)} className="bg-yellow-300 text-black hover:bg-black hover:text-white border border-black font-semibold py-2 px-4 rounded-md transition-all hidden md:block">
           Create a Trip
         </button>

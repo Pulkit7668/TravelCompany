@@ -15,6 +15,7 @@ import Sikkim from './Pages/Sikkim.jsx';
 import Goa from './Pages/Goa.jsx';
 import ArunachalPradesh from './Pages/ArunachalPradesh.jsx';
 import Srinagar from './Pages/Srinagar.jsx'
+import SrinagarDetails from './Pages/SrinagarDetails.jsx'
 
 
 
@@ -29,8 +30,7 @@ createRoot(document.getElementById('root')).render(
     >
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/jandk" element={<JandK />} >
-        </Route>
+        <Route path="/jandk" element={<JandK />} />
         <Route path="/ladakh" element={<Ladakh />} />
         <Route path="/kerala" element={<Kerala />} />
         <Route path="/rajasthan" element={<Rajasthan />} /> 
@@ -42,6 +42,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="/arunachalpradesh" element={<ArunachalPradesh />} />
         <Route path="/search" element={<SearchPage />} />
         <Route path="/jandk/srinagar" element={<Srinagar />} />
+        <Route path="/jandk/srinagar/itinerary" element={<SrinagarDetails />} />
       </Routes>
     </Auth0Provider>
   </BrowserRouter>

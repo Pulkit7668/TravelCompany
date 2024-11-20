@@ -16,7 +16,7 @@ function AboutJK() {
         destination for adventurers. So if you're looking for a beautiful place to escape and relax, Kashmir is <br className='xs:hidden' /> 
         the abode for you!
       </p>
-      <button className="text-black text-lg md:text-lg font-semibold mt-5 px-8 py-2 md:px-10 md:py-3 rounded-lg border border-black hover:bg-black hover:text-white transition-all duration-300">
+      <button className="text-black text-lg md:text-lg font-semibold mt-5 px-8 py-2 md:px-10 md:py-1 rounded-lg border border-black hover:bg-black hover:text-white transition-all duration-300">
         Craft a trip to Jammu & Kashmir now!
       </button>
     </div>

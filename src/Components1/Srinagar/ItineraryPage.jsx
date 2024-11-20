@@ -62,7 +62,7 @@ function Itinerary() {
           <button
             key={index}
             onClick={() => setActiveDay(index)}
-            className={`px-4 py-2 text-left rounded-lg border-2 hover:bg-[#565656] transition-all duration-300 ${
+            className={`px-4 py-2 text-left rounded-lg border-2 hover:bg-[#565656] transition-all duration-300 ease-in-out ${
               activeDay === index
                 ? "bg-black text-white border-black"
                 : "bg-white text-black border-gray-300"
