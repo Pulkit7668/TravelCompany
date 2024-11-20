@@ -2,8 +2,8 @@ import React, {useEffect} from 'react'
 import Navbar from '../components/NavBar/NavBar';
 import SrinagarHomePage from '../Components1/Srinagar/SrinagarHomePage'
 import SrinagarSlider from '../Components1/Srinagar/SrinagarSlider'
-import WhyPlanWithUs from '../Components1/WhyPlanWithUsJ&K/WhyPlanWithUs'
-import Community from '../Components/Community/TestimonialCards'
+import WhyPlanWithUs from '../Components1/WhyPlanWithUsJ&K/WhyPlanWithUs';
+import Community from '../components/Community/TestimonialCards';
 import WhatTheySay from '../Components1/WhatTheySay/WhatTheySay';
 import TalkToUs from '../Components1/TalkToUs/TalkToUs'
 import SubscribeSection from '../Components/SubscribeSection/SubscribeSection'
