@@ -6,7 +6,7 @@ import WhyPlanWithUs from '../Components1/WhyPlanWithUsJ&K/WhyPlanWithUs';
 import Community from '../components/Community/TestimonialCards';
 import WhatTheySay from '../Components1/WhatTheySay/WhatTheySay';
 import TalkToUs from '../Components1/TalkToUs/TalkToUs'
-import SubscribeSection from '../Components/SubscribeSection/SubscribeSection'
+import SubscribeSection from '../components/SubscribeSection/SubscribeSection'
 import Footer from '../components/Footer/Footer'
 import AboutSrinagar from '../Components1/Srinagar/AboutSrinagar';
 import ThingsToDo from '../Components1/Srinagar/ThingsToDo';
