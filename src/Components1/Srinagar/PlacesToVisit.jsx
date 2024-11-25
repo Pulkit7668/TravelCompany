@@ -48,8 +48,8 @@ const PlacesToVisit = () => {
 
   return (
     <div className="px-6 py-12 bg-white">
-      <h1 className="text-4xl font-bold mb-10 ml-20">Places to visit in Srinagar</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mx-20">
+      <h1 className="text-4xl xs:text-2xl font-bold mb-10 ml-20 xs:ml-0">Places to visit in Srinagar</h1>
+      <div className="grid grid-cols-1 xs:w-full sm:grid-cols-2 lg:grid-cols-3 gap-6 mx-20 xs:mx-0">
         {places.map((place, index) => (
           <div
             key={index}

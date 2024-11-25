@@ -34,10 +34,10 @@ const ThingsToDo = () => {
 
   return (
     <div className="px-6 py-12 bg-white">
-      <h1 className="text-2xl md:text-3xl font-bold mb-8 ml-20">
+      <h1 className="text-2xl md:text-3xl font-bold mb-8 ml-20 xs:ml-0">
         Things to do in Srinagar
       </h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mx-20">
+      <div className="grid grid-cols-1 xs:w-full sm:grid-cols-2 lg:grid-cols-4 gap-6 mx-20 xs:mx-0">
         {activities.map((activity, index) => (
           <div
             key={index}
@@ -46,7 +46,7 @@ const ThingsToDo = () => {
             <img
               src={activity.image}
               alt={activity.title}
-              className="w-[90%] h-44 object-cover rounded-lg ml-[18px] mt-4 mb-10"
+              className="w-[90%] xs:w-full h-44 object-cover rounded-lg ml-[18px] xs:ml-0 mt-4 xs:mt-0 mb-10"
             />
             <div className="p-4">
               <h2 className="text-lg font-bold mb-5">

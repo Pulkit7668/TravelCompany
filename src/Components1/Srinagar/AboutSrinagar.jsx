@@ -14,10 +14,10 @@ const AboutSrinagar = () => {
     <div className="flex flex-col md:flex-row items-start justify-between p-6 md:p-10 rounded-lg">
       {/* Left Section: Description */}
       <div className="w-full md:w-2/3">
-        <h1 className="text-2xl md:text-4xl font-bold mb-4 ml-20">
+        <h1 className="text-2xl md:text-4xl font-bold mb-4 ml-20 xs:ml-5">
           A little about Srinagar
         </h1>
-        <p className="text-gray-700 text-sm md:text-base ml-20">
+        <p className="text-gray-700 text-sm md:text-base ml-20 xs:ml-5">
           Srinagar is the largest city and the summer capital of Jammu and Kashmir, India. It
           lies in the Kashmir Valley on the banks of the Jhelum River, surrounded by the
           stunning Himalayan mountains. Srinagar is known as the “Heaven on Earth” due to

@@ -54,8 +54,8 @@ function Itinerary() {
 
   return (
     <>
-    <h1 className="text-3xl font-bold ml-16 mt-10 mb-5">Day By Day Itinerary</h1>
-    <div className="flex flex-col md:flex-row p-6 gap-5 h-[46vh]">
+    <h1 className="text-3xl font-bold ml-16 xs:text-center xs:ml-0 xs:mb-8 mt-10 mb-5">Day By Day Itinerary</h1>
+    <div className="flex flex-col md:flex-row gap-5 h-[46vh] xs:h-[55vh]">
       {/* Left Sidebar */}
       <div className="flex md:flex-col space-x-4 md:space-x-0 md:space-y-4 mb-4 md:mb-0">
         {itinerary.map((item, index) => (

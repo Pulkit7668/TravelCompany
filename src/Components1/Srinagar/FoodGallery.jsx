@@ -22,8 +22,8 @@ const FoodGallery = () => {
 
   return (
     <div className="p-6">
-      <h1 className="text-3xl font-bold mb-6 ml-20">Food to eat</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mx-20">
+      <h1 className="text-3xl font-bold mb-6 ml-20 xs:ml-0">Food to eat</h1>
+      <div className="grid grid-cols-1 xs:w-full sm:grid-cols-2 md:grid-cols-4 gap-6 mx-20 xs:mx-0">
         {foods.map((food, index) => (
           <div
             key={index}

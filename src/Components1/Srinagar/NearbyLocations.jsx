@@ -42,10 +42,10 @@ const NearbyLocations = () => {
 
   return (
     <div className="px-8 py-12 bg-white">
-      <h1 className="text-3xl font-bold ml-20 mb-10">
+      <h1 className="text-3xl font-bold ml-20 mb-10 xs:ml-0">
         Nearby Locations to Srinagar
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-6 mx-20">
+      <div className="grid grid-cols-1 xs:w-full md:grid-cols-2 lg:grid-cols-6 gap-6 mx-20 xs:mx-0">
         {locations.map((location, index) => (
           <div
             key={index}

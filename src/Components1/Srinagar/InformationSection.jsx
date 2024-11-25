@@ -20,8 +20,8 @@ const InformationSection = () => {
   ];
 
   return (
-    <div className="p-6 min-h-screen mx-20 mt-5">
-      <h1 className="text-3xl font-bold mb-6">
+    <div className="p-6 min-h-screen mx-20 xs:mx-0 mt-5">
+      <h1 className="text-3xl xs:text-xl font-bold mb-6">
         Information About Srinagar
       </h1>
       <div className="space-y-2">

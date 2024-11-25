@@ -14,7 +14,7 @@ const activitiesData = [
 
 const Activities = () => {
   return (
-    <div className="p-6 ml-20">
+    <div className="p-6 ml-20 xs:w-full xs:ml-0">
       {/* Title Section */}
       <h1 className="text-4xl font-bold mb-6">Activities</h1>
 
@@ -24,7 +24,7 @@ const Activities = () => {
           <h2 className="text-black text-3xl font-bold mb-5">{activity.location}</h2>
 
           {/* Activity Card with updated styling */}
-          <div className="w-[80%] flex flex-col md:flex-row items-start md:items-stretch mb-6 bg-white p-4 rounded-3xl border-2 border-gray-300 hover:shadow-lg hover:shadow-yellow-200 hover:border-yellow-300 transition-all duration-300">
+          <div className="w-[80%] xs:w-full flex flex-col md:flex-row items-start md:items-stretch mb-6 bg-white p-4 rounded-3xl border-2 border-gray-300 hover:shadow-lg hover:shadow-yellow-200 hover:border-yellow-300 transition-all duration-300">
             {/* Image Section */}
             <div className="w-full md:w-1/4 relative">
               <img

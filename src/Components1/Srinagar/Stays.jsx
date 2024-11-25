@@ -78,12 +78,12 @@ const Stays = () => {
   return (
     <>
       <h1 className="text-4xl font-bold ml-24 mt-10 mb-5">Stays</h1>
-      <div className="p-6 ml-16">
+      <div className="p-6 ml-16 xs:w-full xs:ml-0">
         {staysData.map((stay, index) => (
           <div key={index} className="mb-10">
             <h1 className="text-black text-3xl font-bold mb-5">{stay.header}</h1>
             <div
-              className="w-[80%] flex flex-col md:flex-row items-start md:items-stretch mb-6 bg-white p-4 rounded-3xl border-2 border-gray-300 hover:shadow-lg hover:shadow-yellow-200 hover:border-yellow-300 transition-all duration-300"
+              className="w-[80%] xs:w-full flex flex-col md:flex-row items-start md:items-stretch mb-6 bg-white p-4 rounded-3xl border-2 border-gray-300 hover:shadow-lg hover:shadow-yellow-200 hover:border-yellow-300 transition-all duration-300"
             >
               {/* Image Section */}
               <div className="w-full md:w-1/4 relative">

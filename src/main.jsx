@@ -1,6 +1,5 @@
 import { createRoot } from 'react-dom/client';
 import './index.css';
-import { Auth0Provider } from '@auth0/auth0-react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import App from './App.jsx';
 import JandK from './Pages/JandK.jsx'
@@ -16,18 +15,12 @@ import Goa from './Pages/Goa.jsx';
 import ArunachalPradesh from './Pages/ArunachalPradesh.jsx';
 import Srinagar from './Pages/Srinagar.jsx'
 import SrinagarDetails from './Pages/SrinagarDetails.jsx'
+import OtpAuthentication from './components/NavBar/OtpAuthentication.jsx';
 
 
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
-    <Auth0Provider
-      domain="dev-7rliujw7wdyubv0z.us.auth0.com"
-      clientId="lS9OMF6Vk4eIJzMnKEpDqIDPHRiNqojw"
-      authorizationParams={{
-        redirect_uri: window.location.origin
-      }}
-    >
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/jandk" element={<JandK />} />
@@ -43,7 +36,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="/search" element={<SearchPage />} />
         <Route path="/jandk/srinagar" element={<Srinagar />} />
         <Route path="/jandk/srinagar/itinerary" element={<SrinagarDetails />} />
+        <Route path="/otp-authentication" element={<OtpAuthentication />} />
       </Routes>
-    </Auth0Provider>
   </BrowserRouter>
 );
