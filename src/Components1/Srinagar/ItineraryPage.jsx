@@ -57,7 +57,7 @@ function Itinerary() {
     <h1 className="text-3xl font-bold ml-16 xs:text-center xs:ml-0 xs:mb-8 mt-10 mb-5">Day By Day Itinerary</h1>
     <div className="flex flex-col md:flex-row gap-5 h-[46vh] xs:h-[55vh]">
       {/* Left Sidebar */}
-      <div className="flex md:flex-col space-x-4 md:space-x-0 md:space-y-4 mb-4 md:mb-0">
+      <div className="flex md:flex-col space-x-4 md:space-x-0 md:space-y-6 mt-2 mb-4 md:mb-0">
         {itinerary.map((item, index) => (
           <button
             key={index}
@@ -74,7 +74,7 @@ function Itinerary() {
       </div>
 
       {/* Right Content */}
-      <div className="flex-1 bg-white p-6 rounded-3xl shadow-md">
+      <div className="flex-1 bg-white border  p-6 rounded-3xl shadow-md">
         <h2 className="text-3xl font-bold mb-5">{itinerary[activeDay].year}</h2>
         <h1 className="text-3xl font-bold mb-5">
           {itinerary[activeDay].day} - {itinerary[activeDay].title}
